@@ -1,0 +1,39 @@
+_repo: On-the-distribution-of-intensity-in-stellar-absorption-lines_75914
+_version: 0.0.1
+creator:
+  authors:
+  - agent_name: Payne-Gaposchkin, Cecilia
+    aliases:
+    - Gaposchkin, Cecilia Helena Payne
+    - Payne, Cecilia H.
+    birthdate: 1900
+    deathdate: 1979
+    gutenberg_agent_id: '57304'
+    url: http://www.gutenberg.org/2009/agents/57304
+    wikipedia: https://en.wikipedia.org/wiki/Cecilia_Payne-Gaposchkin
+  - agent_name: Shapley, Harlow
+    birthdate: 1885
+    deathdate: 1972
+    gutenberg_agent_id: '57296'
+    url: http://www.gutenberg.org/2009/agents/57296
+    wikipedia: https://en.wikipedia.org/wiki/Harlow_Shapley
+description: ''
+gutenberg_issued: '2025-04-20'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '75914'
+language: en
+pgterms:marc904: https://catalog.hathitrust.org/Record/009551110
+pgterms:marc905: 20240901111331payne
+pgterms:marc906: '1926'
+pgterms:marc907: US
+production_note: Richard Tonsing and the Online Distributed Proofreading Team at https://www.pgdp.net
+  (This book was produced from images made available by the HathiTrust Digital Library.)
+publication_note: '  $aCambridge :$bHarvard, $c1926.'
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- GITenberg
+title: On the distribution of intensity in stellar absorption lines
+url: http://www.gutenberg.org/ebooks/75914
