@@ -1,0 +1,4585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>On the Distribution of Intensity in Stellar Absorption Lines | Project Gutenberg</title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+       body { margin-left: 8%; margin-right: 10%; }
+       h1 { text-align: center; font-weight: bold; font-size: xx-large; }
+       h2 { text-align: center; font-weight: bold; font-size: x-large; }
+       h3 { text-align: center; font-weight: bold; font-size: large; }
+       .pageno { right: 1%; font-size: x-small; background-color: inherit; color: silver; 
+               text-indent: 0em; text-align: right; position: absolute; 
+               border: thin solid silver; padding: .1em .2em; font-style: normal; 
+               font-variant: normal; font-weight: normal; text-decoration: none; }
+       p { text-indent: 0; margin-top: 0.5em; margin-bottom: 0.5em; text-align: justify; }
+       sup { vertical-align: top; font-size: 0.6em; }
+       .fss { font-size: 75%; }
+       .sc { font-variant: small-caps; }
+       .large { font-size: large; }
+       .xlarge { font-size: x-large; }
+       .small { font-size: small; }
+       .dl_1 dd { text-align: justify; padding-top: .5em; padding-left: .5em;
+               margin-left: 3.2em; text-indent: -1em; }
+       .dl_1 dt { float: left; clear: left; text-align: right; width: 2.0em;
+               padding-top: .5em; padding-right: .5em; }
+       .dl_2 dd { text-align: justify; padding-top: .5em; padding-left: .5em;
+               margin-left: 6.7em; text-indent: -1em; }
+       .dl_2 dt { float: left; clear: left; text-align: right; width: 5.5em;
+               padding-top: .5em; padding-right: .5em; }
+       .ul_1 li {padding-left: 1em; text-indent: -1em; }
+       .x-ebookmaker  .dl_1 dt { float: left; clear: left; text-align: right;
+               width: 2.0em; padding-top: .5em; padding-right: .5em; } 
+       .x-ebookmaker  .dl_2 dt { float: left; clear: left; text-align: right;
+               width: 5.5em; padding-top: .5em; padding-right: .5em; } 
+       dl.dl_1 { margin-top: .5em; margin-bottom: .5em; }
+       dl.dl_2 { margin-top: .5em; margin-bottom: .5em; }
+       ul.ul_1 {padding-left: 0; margin-left: 2.78%; margin-top: .5em;
+               margin-bottom: .5em; list-style-type: disc; }
+       div.footnote > :first-child { margin-top: 1em; }
+       div.footnote p { text-indent: 1em; margin-top: 0.25em; margin-bottom: 0.25em; }
+       div.pbb { page-break-before: always; }
+       hr.pb { border: none; border-bottom: thin solid; margin-bottom: 1em; }
+       .x-ebookmaker hr.pb { display: none; }
+       .chapter { clear: both; page-break-before: always; }
+       .figcenter { clear: both; max-width: 100%; margin: 2em auto; text-align: center; }
+       div.figcenter p { text-align: center; text-indent: 0; }
+       .figcenter img { max-width: 100%; height: auto; }
+       .id001 { width:80%; }
+       .id002 { width:50%; }
+       .x-ebookmaker  .id001 { margin-left:10%; width:80%; }
+       .x-ebookmaker  .id002 { margin-left:25%; width:50%; }
+       .ic001 { width:100%; } 
+       div.ic001 p { text-align:justify; } 
+       .ig001 { width:100%; } 
+       .table0 { margin: auto; width: 100%; border-collapse: collapse; }
+       .table1 { margin: auto; width: 100%; }
+       .bbm { border-bottom: medium solid; }
+       .bbt { border-bottom: thin solid; }
+       .blm { border-left: medium solid; }
+       .blt { border-left: thin solid; }
+       .brm { border-right: medium solid; }
+       .brt { border-right: thin solid; }
+       .btm { border-top: medium solid; }
+       .colwidth10 { width:10% ; }
+       .colwidth11 { width:11% ; }
+       .colwidth12 { width:12% ; }
+       .colwidth13 { width:13% ; }
+       .colwidth14 { width:14% ; }
+       .colwidth15 { width:15% ; }
+       .colwidth18 { width:18% ; }
+       .colwidth20 { width:20% ; }
+       .colwidth22 { width:22% ; }
+       .colwidth23 { width:23% ; }
+       .colwidth26 { width:26% ; }
+       .colwidth27 { width:27% ; }
+       .colwidth28 { width:28% ; }
+       .colwidth33 { width:33% ; }
+       .colwidth36 { width:36% ; }
+       .colwidth7 { width:7% ; }
+       .colwidth8 { width:8% ; }
+       .colwidth9 { width:9% ; }
+       .nf-center { text-align: center; }
+       .nf-center-c0 { text-align: justify; margin: 0.5em 0; }
+       .c000 { margin-top: 0.5em; margin-bottom: 0.5em; }
+       .c001 { margin-top: 4em; }
+       .c002 { margin-top: 1em; }
+       .c003 { page-break-before: always; margin-top: 4em; }
+       .c004 { margin-top: 2em; }
+       .c005 { page-break-before:auto; margin-top: 4em; }
+       .c006 { text-decoration: none; }
+       .c007 { margin-top: 2em; text-indent: 1em; margin-bottom: 0.25em; }
+       .c008 { text-indent: 1em; margin-top: 0.25em; margin-bottom: 0.25em; }
+       .c009 { text-align: center; }
+       .c010 { vertical-align: top; text-align: center; padding-left: .5em;
+               padding-right: .5em; }
+       .c011 { vertical-align: top; text-align: right; padding-left: .5em;
+               padding-right: .5em; }
+       .c012 { vertical-align: top; text-align: justify; text-indent: -1em;
+               padding-left: 1.5em; padding-right: .5em; }
+       .c013 { vertical-align: middle; text-align: center; padding-left: .5em;
+               padding-right: .5em; }
+       .c014 { vertical-align: middle; text-align: justify; text-indent: -1em;
+               padding-left: 1.5em; padding-right: .5em; }
+       .c015 { vertical-align: top; text-align: justify; padding-right: 1em; }
+       .c016 { vertical-align: top; text-align: right; padding-right: 1em; }
+       .c017 { vertical-align: top; text-align: right; }
+       .c018 { text-indent: 0; margin-top: 0.25em; margin-bottom: 0.25em; }
+       .c019 { vertical-align: top; text-align: justify; padding-left: .5em;
+               padding-right: .5em; }
+       .c020 { page-break-before: always; margin-top: 2em; }
+       .c021 { margin-top: 1em; text-indent: 1em; margin-bottom: 0.25em; }
+       .c022 { margin-left: 5.56%; text-indent: -2.78%; margin-top: 2em;
+               margin-bottom: 0.5em; }
+       .c023 { margin-left: 5.56%; text-indent: -2.78%; margin-top: 0.5em;
+               margin-bottom: 0.5em; }
+       .c024 { border: none; border-bottom: thin solid; margin-top: 0.8em;
+               margin-bottom: 0.8em; margin-left: 35%; margin-right: 35%; width: 30%; }
+       div.tnotes { padding-left:1em;padding-right:1em;background-color:#E3E4FA;
+              border:thin solid silver; margin:2em 10% 0 10%; font-family: Georgia, serif;
+               clear: both; }
+       .covernote { visibility: hidden; display: none; }
+       div.tnotes p { text-align: justify; }
+       .x-ebookmaker .covernote { visibility: visible; display: block; }
+       .figcenter {font-size: .9em; page-break-inside: avoid; max-width: 100%;
+               max-height: 100%; }
+       h1 {line-height: 150%; }
+       .footnote {font-size: .9em; }
+       div.footnote p {text-indent: 2em; margin-bottom: .5em; }
+       .chapter  { clear: both; page-break-before: always; }
+       body {font-family: Georgia, serif; text-align: justify; }
+       table {font-size: .9em; padding: 1.5em .5em 1em; page-break-inside: avoid;
+               clear: both; }
+       div.titlepage {text-align: center; page-break-before: always;
+               page-break-after: always; }
+       div.titlepage p {text-align: center; text-indent: 0em; font-weight: bold;
+               line-height: 1.5; margin-top: 3em; }
+       .ph2 { text-indent: 0em; font-weight: bold; font-size: x-large; margin: .75em auto;
+               page-break-before: always; }
+       .x-ebookmaker p.dropcap:first-letter { float: left; }
+    </style>
+  </head>
+  <body>   
+<div style='text-align:center'>*** START OF THE PROJECT GUTENBERG EBOOK 75914 ***</div>
+
+<div class='tnotes covernote'>
+
+<p class='c000'><strong>Transcriber’s Note:</strong></p>
+
+<p class='c000'>New original cover art included with this eBook is granted to the public domain.</p>
+
+</div>
+
+<div class='titlepage'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div><span class='large'>Proceedings of the American Academy of Arts and Sciences.</span></div>
+    <div class='c002'><span class='sc'>Vol. 61. No. 10—July, 1926.</span></div>
+  </div>
+</div>
+
+<div>
+  <h1 class='c003'>ON THE DISTRIBUTION OF INTENSITY IN STELLAR ABSORPTION LINES</h1>
+</div>
+
+<div class='nf-center-c0'>
+<div class='nf-center c004'>
+    <div><span class='xlarge'><span class='sc'>By Cecilia H. Payne and Harlow Shapley</span></span></div>
+  </div>
+</div>
+
+</div>
+
+<div class='chapter'>
+  <span class='pageno' id='Page_459'>459</span>
+  <h2 class='c005'>ON THE DISTRIBUTION OF INTENSITY IN STELLAR ABSORPTION LINES<a id='r1'></a><a href='#f1' class='c006'><sup>[1]</sup></a></h2>
+</div>
+
+<div class='footnote' id='f1'>
+<p class='c007'><a href='#r1'>1</a>. The cost of publication of this research has been met with the help of a
+grant from the Rumford Fund.</p>
+</div>
+
+<div class='nf-center-c0'>
+  <div class='nf-center'>
+    <div><span class='sc'>By Cecilia H. Payne<a id='r2'></a><a href='#f2' class='c006'><sup>[2]</sup></a> and Harlow Shapley</span></div>
+  </div>
+</div>
+
+<div class='footnote' id='f2'>
+<p class='c008'><a href='#r2'>2</a>. National Research Fellow.</p>
+</div>
+
+<p class='c007'>1. It is unnecessary to emphasize the significance of the form of
+absorption lines in the study of problems of atomic structure and the
+physical constitution of stellar atmospheres. There has been an
+abundance of theoretical work on line contour, but a remarkable
+scarcity of quantitative observation. The present preliminary study
+is aimed to meet, in part, the need for measurements on the broad and
+strong lines in the spectra of stars of various types.</p>
+
+<p class='c008'>In general the investigation has been based on objective prism
+spectra, analyzed with a photographically recording microphotometer.
+The ease with which a photometric scale can be set up on these plates,
+available throughout the whole length of the spectrum, and essentially
+independent of the variability of plates and development, is a decided
+factor in favor of using objective prism spectra. Other advantages
+include the efficiency of the objective prism spectrograph and its
+simple operation. The possible disadvantage of lack of purity is not
+important, at least in the case of the lines discussed in this communication;
+the extent to which scattered light affects the true contours
+of the absorption lines is considered below.</p>
+
+<p class='c008'>That the results from slit spectrographs are in essential agreement
+with these slitless spectrograms is shown in Figure 1, where microphotometer
+tracings of spectra from the two sources are shown.
+Through the courtesy of Professor W. J. Hussey and Professor R. H.
+Curtiss, of Ann Arbor, some excellent spectrograms made with the
+single prism spectroscope at the Detroit Observatory have been sent
+to Harvard for this comparison. The dispersion is practically the
+same on the Michigan and Harvard plates. The microphotometer
+records were made under identical conditions for the two sets of
+spectra, though the presence of comparison lines on the Michigan
+plates and the narrowness of the spectra made their analysis more
+difficult.</p>
+
+<div  class='figcenter id001'>
+<img src='images/fig_1.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 1.—Microphotometer tracings made from the spectra of four stars. The names of the stars, and the sources of the analyzed spectra, are as follows: (1) α Canis Majoris (Sirius), Harvard objective prism spectrum, (2) α Lyrae (Vega), slit spectrogram, Detroit Observatory, (3) α Aquilae, slit spectrogram, Detroit Observatory, (4) β Pegasi, slit spectrogram, Detroit Observatory. The violet ends of the spectra are to the left.</p>
+</div>
+</div>
+
+<p class='c008'>2. The work on the Harvard spectrograms has been carried out by
+the method that was described in the preliminary report (H.B. 805,
+1924). The plates were all made with the sixteen-inch refractor,
+<span class='pageno' id='Page_461'>461</span>using two prisms and a special set of apertures. The different apertures
+provide relative objective areas of 16, 8, 4, 2, and 1, respectively.
+The apertures are rectangular, and the successive reducing strips are
+placed perpendicular to the refracting edge of the prism. It is assumed
+in the discussion that the amounts of light admitted by the
+apertures are in the same ratio as their areas.</p>
+
+<p class='c008'>A standard procedure has been adopted in securing the spectrograms.
+A series of spectra with the several apertures was obtained
+upon each plate. Focus, clock rate, and exposure time were kept
+constant over any one series. In general the apertures were used in
+the order 16, 8, 4, 2, 16. Aperture 1 was omitted in nearly every case,
+and for a few stars other apertures were also omitted, or found to be
+useless owing to faintness of the image. Omission of apertures is
+indicated by notes to Table I.</p>
+
+<table class='table0'>
+<colgroup>
+<col class='colwidth12'>
+<col class='colwidth23'>
+<col class='colwidth12'>
+<col class='colwidth26'>
+<col class='colwidth26'>
+</colgroup>
+  <tr><th class='c009' colspan='5'>TABLE I</th></tr>
+  <tr><th class='c009' colspan='5'><span class='sc'>List of Plates Used</span></th></tr>
+  <tr>
+ <th class='btm bbt blm c010'>Plate Number</th>
+ <th class='btm bbt blt c010'>Star</th>
+ <th class='btm bbt blt c010'>Spectral Class</th>
+ <th class='btm bbt blt c010'>Apertures</th>
+ <th class='btm bbt blt brm c010'>Remarks</th>
+  </tr>
+  <tr>
+ <td class='blm c011'>MC 20790</td>
+ <td class='blt c012'>α Lyrae</td>
+ <td class='blt c011'>A0</td>
+ <td class='blt c012'>1, 16a, 8, 4, 2</td>
+ <td class='blt brm c012'>Ap. 2 not used</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>20797</td>
+ <td class='blt c012'>α Bootis</td>
+ <td class='blt c011'>K0</td>
+ <td class='blt c012'>1, 16a, 8, 4, 2, 16b</td>
+ <td class='blt brm c012'>Ap. 1 and 2 not used</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>20800</td>
+ <td class='blt c012'>α Aquilae</td>
+ <td class='blt c011'>A5</td>
+ <td class='blt c012'>1, 16a, 8, 4, 2, 16b</td>
+ <td class='blt brm c012'>Ap. 1 and 2 not used</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>21640</td>
+ <td class='blt c012'>α Cygni</td>
+ <td class='blt c011'>cA2</td>
+ <td class='blt c012'>16a, 8, 4, 2, 16b</td>
+ <td class='blt brm c012'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>21645</td>
+ <td class='blt c012'>δ Cassiopeiae</td>
+ <td class='blt c011'>A5</td>
+ <td class='blt c012'>16a, 8, 4, 2, 16b</td>
+ <td class='blt brm c012'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>21646</td>
+ <td class='blt c012'>α Cassiopeiae</td>
+ <td class='blt c011'>K0</td>
+ <td class='blt c012'>16a, 4, 2, 16b</td>
+ <td class='blt brm c012'>Ap. 16b not used</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>21721</td>
+ <td class='blt c012'>α Aurigae</td>
+ <td class='blt c011'>G0</td>
+ <td class='blt c012'>16a, 8, 4, 2, 16b</td>
+ <td class='blt brm c012'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>21722</td>
+ <td class='blt c012'>δ Canis Majoris</td>
+ <td class='blt c011'>cF8</td>
+ <td class='blt c012'>16a, 8, 4, 2, 16b</td>
+ <td class='blt brm c012'>Ap. 16b not used</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>21788</td>
+ <td class='blt c012'>β Orionis</td>
+ <td class='blt c011'>cB8</td>
+ <td class='blt c012'>16a, 8, 4, 2, 16b</td>
+ <td class='blt brm c012'>Ap. 16b not used</td>
+  </tr>
+  <tr>
+ <td class='blm c011'>21789</td>
+ <td class='blt c012'>ε Orionis</td>
+ <td class='blt c011'>B0</td>
+ <td class='blt c012'>16a, 8, 4, 2, 16b</td>
+ <td class='blt brm c012'>Ap. 16b not used</td>
+  </tr>
+  <tr>
+ <td class='bbm blm c011'>21802</td>
+ <td class='bbm blt c012'>α Canis Majoris</td>
+ <td class='bbm blt c011'>A0</td>
+ <td class='bbm blt c012'>8, 16, 4, 2</td>
+ <td class='bbm blt brm c012'>&#160;</td>
+  </tr>
+</table>
+
+<p class='c008'>The apertured spectra were examined, and any that showed irregularities
+were rejected. In cases of interference by clouds, whether
+or not the spectra were visibly impaired, the plates were not measured.
+Spectra which appeared from experience to be too strong or too weak
+for satisfactory analysis were also rejected.</p>
+
+<p class='c008'><span class='pageno' id='Page_462'>462</span>3. The present report deals with the spectra of the eleven stars
+enumerated in Table I. Successive columns contain the plate number,
+the name of the star, its spectral class, the apertures employed,
+and remarks.</p>
+
+<p class='c008'>In addition to the plates enumerated in Table I, the following focus
+plates were obtained.</p>
+
+<table class='table0'>
+<colgroup>
+<col class='colwidth7'>
+<col class='colwidth22'>
+<col class='colwidth36'>
+<col class='colwidth33'>
+</colgroup>
+  <tr>
+ <th class='btm bbt blm c013'>Plate</th>
+ <th class='btm bbt blt c013'>Star</th>
+ <th class='btm bbt blt c013'>Apertures</th>
+ <th class='btm bbt blt brm c013'>Remarks</th>
+  </tr>
+  <tr>
+ <td class='blm c014'>21648</td>
+ <td class='blt c014'>α Canis Majoris</td>
+ <td class='blt c014'>16, 4, 4, 4, 4, 4, 4, 4, 4, 4, 16</td>
+ <td class='blt brm c014 bbm' rowspan='2'>Various focus settings</td>
+  </tr>
+  <tr>
+ <td class='bbm blm c014'>21803</td>
+ <td class='bbm blt c014'>α Canis Majoris</td>
+ <td class='bbm blt c014'>16, 16, 4, 2, 8, 8, 8, 8, 8, 16</td>
+ 
+  </tr>
+</table>
+
+<p class='c008'>4. All the plates have been analyzed by means of the Moll thermoelectric
+microphotometer of Harvard Observatory,<a id='r3'></a><a href='#f3' class='c006'><sup>[3]</sup></a> which furnishes
+a photographic record of the plate density. The adjustments of this
+instrument were made with several ends in view. The analyzing
+beam of light was kept as narrow as possible, so that no integrating
+effect should enter into the final result. At the same time it was
+desired that the total galvanometer deflection—the quantity on which
+the measures depend—should be of reasonable size; otherwise the
+errors of measurement would become proportionately too great.
+Some of the analyzed spectra, especially those of fainter stars, were
+so narrow that the slit admitting the analyzing beam had to be considerably
+shortened. This cut down the total light transmitted in
+the same proportion, and to keep the deflections of the galvanometer
+of reasonable size, a wider slit, and therefore a wider analyzing beam,
+had to be used. A compromise was worked out, for each plate,
+between a narrow analyzing beam and a reasonable galvanometer deflection.</p>
+
+<div class='footnote' id='f3'>
+<p class='c008'><a href='#r3'>3</a>. This instrument was purchased with the aid of the Rumford Fund of the
+American Academy of Arts and Sciences and the Bache Fund of the National
+Academy of Sciences.</p>
+</div>
+
+<p class='c008'>Special precautions were taken to secure the greatest uniformity of
+conditions possible throughout the analysis of each series of spectra
+of any one star. At first it was hoped that the whole series of plates
+could be analyzed under exactly uniform conditions. Owing to the
+narrowness of some of the spectra, however, it was necessary to introduce
+the modifications indicated in the preceding paragraph. Even
+<span class='pageno' id='Page_463'>463</span>if all the spectra had been analyzed under precisely the same conditions,
+experience showed that direct intercomparison between different
+stars would have been impossible, owing to varying amounts
+of fog on different plates.</p>
+
+<p class='c008'>The instrumental settings were made and recorded at the beginning
+of the analysis of each series of spectra, and when possible were kept
+untouched throughout the process. The voltage supplying the
+analyzing beam, and the temperature of the room, were recorded at
+the beginning and end of each analysis, since both these factors may
+affect the galvanometer deflection.</p>
+
+<table class='table0'>
+<colgroup>
+<col class='colwidth20'>
+<col class='colwidth20'>
+<col class='colwidth20'>
+<col class='colwidth20'>
+<col class='colwidth20'>
+</colgroup>
+  <tr><th class='c009' colspan='5'>TABLE II</th></tr>
+  <tr>
+ <th class='btm bbt blm brt c010'>Plate Number</th>
+ <th class='btm bbt brt c010'>Star</th>
+ <th class='btm bbt brt c010'>Slit Width mm.</th>
+ <th class='btm bbt brt c010'>Slit Length mm.</th>
+ <th class='btm bbt brm c010'>Total Deflection scale div.</th>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>MC 20790</td>
+ <td class='brt c010'>α Lyr</td>
+ <td class='brt c010'>.25</td>
+ <td class='brt c010'>6.0</td>
+ <td class='brm c010'>77</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>20797</td>
+ <td class='brt c010'>α Boo</td>
+ <td class='brt c010'>.10</td>
+ <td class='brt c010'>7.0</td>
+ <td class='brm c010'>35</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>20800</td>
+ <td class='brt c010'>α Aql</td>
+ <td class='brt c010'>.10</td>
+ <td class='brt c010'>7.0</td>
+ <td class='brm c010'>42</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21640</td>
+ <td class='brt c010'>α Cyg</td>
+ <td class='brt c010'>.10</td>
+ <td class='brt c010'>5.5</td>
+ <td class='brm c010'>30</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21645</td>
+ <td class='brt c010'>δ Cas</td>
+ <td class='brt c010'>.10</td>
+ <td class='brt c010'>4.0</td>
+ <td class='brm c010'>35</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21646</td>
+ <td class='brt c010'>α Cas</td>
+ <td class='brt c010'>.40</td>
+ <td class='brt c010'>3.0</td>
+ <td class='brm c010'>45</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21648</td>
+ <td class='brt c010'>α CMa</td>
+ <td class='brt c010'>.25</td>
+ <td class='brt c010'>4.0</td>
+ <td class='brm c010'>67</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21721</td>
+ <td class='brt c010'>α Aur</td>
+ <td class='brt c010'>.25</td>
+ <td class='brt c010'>5.0</td>
+ <td class='brm c010'>62</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21722</td>
+ <td class='brt c010'>δ CMa</td>
+ <td class='brt c010'>.25</td>
+ <td class='brt c010'>5.0</td>
+ <td class='brm c010'>74</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21788</td>
+ <td class='brt c010'>β Ori</td>
+ <td class='brt c010'>.25</td>
+ <td class='brt c010'>6.5</td>
+ <td class='brm c010'>91</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21789</td>
+ <td class='brt c010'>ε Ori</td>
+ <td class='brt c010'>.25</td>
+ <td class='brt c010'>6.0</td>
+ <td class='brm c010'>69</td>
+  </tr>
+  <tr>
+ <td class='blm brt c011'>21802</td>
+ <td class='brt c010'>α CMa</td>
+ <td class='brt c010'>.25</td>
+ <td class='brt c010'>6.0</td>
+ <td class='brm c010'>90</td>
+  </tr>
+  <tr>
+ <td class='bbm blm brt c011'>21803</td>
+ <td class='bbm brt c010'>α CMa</td>
+ <td class='bbm brt c010'>.25</td>
+ <td class='bbm brt c010'>6.0</td>
+ <td class='bbm brm c010'>85</td>
+  </tr>
+</table>
+
+<p class='c008'>The instrumental settings for the different plates analyzed are
+summarized in Table II. Successive columns contain the plate
+number, the name of the star, the width in millimeters of the slit
+producing the analyzing beam, and the total length of that slit. The
+effective width of the slit producing the analyzing beam differs somewhat
+from the quantity recorded in the third column. For the three
+entries .10, .25 and .40, the corresponding effective slit widths are
+.101, .262, and .385 mm., respectively. The corresponding widths
+in millimeters of the analyzing beam are 0.010, 0.026, and 0.038, respectively,
+which are approximately equivalent to .02, .05, and
+.08 angstroms at Hδ for the dispersion used in this series of plates.</p>
+
+<p class='c008'><span class='pageno' id='Page_464'>464</span>5. <em>Measurement of microphotometer tracings.</em>—In addition to the
+line representing the density of the image at different points along the
+spectrum, reference marks were inserted by registering a line for
+“darkness,” by interposing an opaque screen in the path of the
+analyzing beam, and a line for “clear film,” by passing the beam
+through the plate background close to the spectrum, though not close
+enough to bring it within range of disturbing photographic effects
+due to the image.</p>
+
+<p class='c008'>The microphotometer tracings on paper prints were measured with
+respect to the reference marks. Lines, representing “darkness” and
+“clear film,” were ruled from end to end of the tracing, and across the
+absorption lines a curve was drawn, completing the curve of the neighboring
+continuous background. For early type stars this background
+curve can be drawn without ambiguity; but when the spectrum is
+rich in lines, the course of the unlined continuous background is
+largely a matter of judgment.</p>
+
+<div  class='figcenter id001'>
+<img src='images/fig_2.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 2.—Diagram of an absorption line, as registered by the microphotometer, showing the method of measuring the tracings. The quantities n (“darkness” to “background curve”), <em>m</em> (“background curve” to “line”), and <em>l</em> (“line” to “clear film”) were measured at intervals of five scale divisions, indicated by the vertical lines.</p>
+</div>
+</div>
+
+<p class='c008'>The quantities measured on the microphotometer tracings are best
+described by a diagram. Figure 2 represents a wide absorption line,
+<span class='pageno' id='Page_465'>465</span>and the various distances that were measured in analyzing such a line.
+The measures were all made with a half-millimeter réseau scale photographed
+upon glass, which was laid directly upon the tracing.</p>
+
+<p class='c008'>6. <em>Method of reduction.</em>—The spectra obtained with various apertures
+provide, as was pointed out in Harvard Bulletin 805, several
+measures of the intensity at any point of an absorption line. The intensity
+is compared, in the present paper, with the intensity that the
+continuous background would have at the same point if the line were
+not present, which is assumed to be represented by the “background
+curve” drawn across the absorption line.</p>
+
+<p class='c008'>The method has the advantage of making a determination separately
+for each wave length. The difficulties introduced by the varying
+color sensitivity of the photographic plate are thus avoided. It has,
+however, the disadvantage that the measured quantity depends to
+some extent upon the individual judgment of the investigator in
+drawing the “background curve”—a matter that is simple for Classes
+B and A, but may prove serious for second-type stars.</p>
+
+<p class='c008'>The intensity differences, background <em>minus</em> line, were determined
+for several points by direct measurement. The distances, <em>n</em> and
+<em>m</em> + <em>n</em> for the same wave length in all the spectra of any one series,
+were obtained from the microphotometer tracings, and were separately
+plotted against the logarithms of the corresponding apertures.
+Smooth curves were drawn, joining the plotted points for any one
+wave length, as in Figure 3. The drawing of the curves is somewhat
+simplified by considering together several for the same star, remembering
+that the sections lying between the same abscissae should be
+roughly parallel. These various curves represent different sections
+of the familiar characteristic curve for photographic blackening, the
+logarithm of the aperture being here substituted for the more usual
+logarithm of the intensity. Differences of intensity between line and
+background are then readily obtained by interpolating values of n
+on the curve connecting <em>m</em> + <em>n</em> and aperture, and similarly by interpolating
+values of <em>m</em> + <em>n</em> on the curve connecting aperture with
+measured values of <em>n</em>. Each spectrum thus furnished at least one,
+and sometimes two, values for the intensity difference at any point.</p>
+
+<p class='c008'>It will be seen from Table IX that for several stars two mean values
+of line intensity are given, one being the mean of all the measures, and
+the other the “selected mean.” The selected means are obtained by
+using only points from the more linear portions of the characteristic
+curve, and by rejecting values derived from microphotometer tracings
+of exceptional total deflection.</p>
+
+<div  class='figcenter id002'>
+<span class='pageno' id='Page_466'>466</span>
+<img src='images/fig_3.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 3.—Relation between galvanometer deflection (representing plate density) and aperture (representing light intensity), from measures of the microphotometer tracings made from the apertured spectra of α Lyrae, MC 20790. Ordinates are galvanometer deflections in scale divisions, abscissae are (above) apertures, (below) logarithms of apertures. Smooth curves are drawn joining the points corresponding to the same wave length, for the three apertures represented.</p>
+</div>
+</div>
+
+<p class='c008'>The intensity drop from background to line is thus obtained in the
+form log. intensity of background <em>minus</em> log. intensity of line. The
+<span class='pageno' id='Page_467'>467</span>change in intensity may readily be converted into stellar magnitudes
+by dividing the difference of the logarithms by 0.4.</p>
+
+<p class='c008'>7. The results embodied in the present paper differ so materially
+from those of some previous workers, that it is of especial interest to
+examine the accuracy that may be claimed for each stage of the work,
+and the weight that may be assigned to the results, (Cf. Harvard
+Monograph No. 1, p. 51). Three stages of the investigation should
+be considered separately; the plates, (a and b), the microphotometer
+records (c), and the measures (d).</p>
+
+<p class='c008'>a. <em>Accuracy of plates.</em>—A qualitative test of the reliability of the
+spectra used is made by examining the reproduction of line detail
+throughout the whole series made for one star. Figure 4 shows the
+microphotometer tracings for a portion of the spectrum of δ Canis
+Majoris, made with apertures 16, 8, and 4. Figure 5 shows a similar
+series of tracings made from spectra of α Persei, taken with apertures
+16, 8, 4, and 2. It may be seen that the reproduction of line detail
+is satisfactorily faithful, although a few spurious details can be detected.</p>
+
+<div  class='figcenter id001'>
+<img src='images/fig_4.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 4.—Microphotometer tracings made from a portion of the Harvard apertured objective prism spectra of δ Canis Majoris, MC 21722. The different apertures used are indicated on the left margin. A few of the more important lines are marked on the lower edge of the diagram.</p>
+</div>
+</div>
+
+<div  class='figcenter id001'>
+<span class='pageno' id='Page_468'>468</span>
+<img src='images/fig_5.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 5.—Microphotometer tracings made from a portion of Harvard apertured objective prism spectra of α Persei. The different apertures used are indicated on the left margin. A few of the more important lines are marked on the lower edge of the diagram.</p>
+</div>
+</div>
+
+<p class='c008'>The best quantitative test of the reliability of the spectra used in
+this work is the consistency of the numerical results obtained from the
+different members of a series. From Table IX it may be seen that
+the residuals very seldom exceed 0.2 m., while the majority are less
+than 0.05 m.</p>
+
+<p class='c008'>In specific criticism of the use of the objective prism in line photometry,
+it has been claimed that the intensity at the line center is
+affected, and measurably increased, by stray light, and that such an
+effect is inappreciable for slit spectra. The results of the present
+work, which deals with lines of various depths, widths, and qualities,
+are relevant to a discussion of the question, so far as it concerns objective
+prism spectra.</p>
+
+<p class='c008'><span class='pageno' id='Page_469'>469</span>Presumably the effects of stray light must be greatest in the immediate
+neighborhood of the stronger portions of the spectrum, and
+fall off at greater distances from the more heavily exposed parts of the
+plate. Skylight contributes mainly to plate fog, is uniform over the
+spectrum and its vicinity, and is eliminated by the use of the line
+representing “clear film” as a reference base in measuring the
+tracings.</p>
+
+<p class='c008'>If the effects of stray light are of importance in the immediate vicinity
+of the continuous spectrum, they will presumably affect all absorption
+lines to some extent, and will in particular be greatest for
+narrow lines. The effects should also be greater for heavily exposed
+spectra than for the more lightly exposed spectra of the same star.
+Further, the effects of stray light should appear not only within absorption
+lines, but also alongside of the spectrum on either edge.</p>
+
+<p class='c008'>A comparison of the results for δ Cassiopeiae and α Aquilae, both
+stars of Class A5 (see Table X) shows that the observed line depth is
+not, in this case at least, a function of line width. The lines of δ Cassiopeiae
+are both narrower and deeper (that is, they show greater
+contrast with the background) than those of α Aquilae. The same is
+true of δ Canis Majoris and Capella; the lines of the former are both
+narrower and deeper.</p>
+
+<p class='c008'>The results for apertures 16, 8, 4, and 2 have been compared for all
+the stars discussed, and the intensity differences between line and
+background are not appreciably smaller for the larger apertures, which
+would be the case if stray light were an important factor. Indeed,
+for α Cygni and β Orionis an opposite effect is shown.</p>
+
+<div  class='figcenter id001'>
+<img src='images/fig_6.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 6.—Microphotometer tracing taken across the spectra of Sirius (MC 21647) made with the different apertures indicated along the upper margin.</p>
+</div>
+</div>
+
+<p class='c008'>To examine the distribution of light at the edges of the spectrum, a
+microphotometer tracing was made by running MC 21803 (Sirius)
+through the instrument in a direction perpendicular to the length of
+the spectra. The resulting tracing is reproduced in Figure 6. Effects
+<span class='pageno' id='Page_470'>470</span>of stray light are not to be found, except for the strongest spectrum.
+Evidently such effects depend on the heaviness of the exposure, but
+are not simply proportional to it; they may indicate mainly the
+“creep” of the overexposed image rather than stray incident light.
+The point of exposure beyond which stray light begins to be a disturbing
+factor would have to be determined separately for each plate.
+In no case is it likely to involve any but the strongest spectrum, and
+spectra that are strong enough to exhibit the effect are for other
+reasons not usable. Such measures, in fact, are omitted in deriving
+the “selected mean,” and it would seem that effects of stray light are
+thus eliminated, while an upper limit may be assigned to their magnitude
+by comparing the mean derived from all the measures with the
+selected mean in Table IX. Stray light, although certainly present
+to some degree, is therefore probably not an important factor in
+affecting the results of line photometry with the present objective
+prism spectra.</p>
+
+<div  class='figcenter id002'>
+<img src='images/fig_7.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 7.—Microphotometer tracing taken across the spectrum of Vega made with the single prism spectrograph of the Detroit Observatory.</p>
+</div>
+</div>
+
+<p class='c008'>Figure 7 represents the result of a similar test made by taking a
+microphotometer tracing across an excellent slit spectrogram of Vega
+that was made with the spectrograph at Ann Arbor. There are no
+traceable effects of stray light outside the edges of the spectrum, but
+on the contrary there is a distinct drop in intensity, which may partly
+be due to an Eberhard Effect. The objective prism spectrum therefore
+appears to have a slight advantage in this regard, judging from a
+comparison of Figures 6 and 7.</p>
+
+<p class='c008'>b. <em>Effect of focus.</em>—The effect of poor focus in blurring absorption
+lines suggests that this factor may enter into the accuracy of the
+results. It is not possible, in a stellar spectrograph, when working
+with flat plates, to keep all parts of the spectrum in focus at the same
+time. Two plates of Sirius were taken for the purpose of examining
+the magnitude of the effect. The apertures used, and the focus settings,
+were as follows.</p>
+
+<table class='table1'>
+<colgroup>
+<col class='colwidth15'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+</colgroup>
+  <tr><td class='c009' colspan='12'><span class='pageno' id='Page_471'>471</span></td></tr>
+  <tr><th class='c009' colspan='12'>PLATE MC 21648</th></tr>
+  <tr>
+    <td class='c015'>Spectrum</td>
+    <td class='c016'>1a</td>
+    <td class='c016'>3a</td>
+    <td class='c016'>3b</td>
+    <td class='c016'>3c</td>
+    <td class='c016'>3d</td>
+    <td class='c016'>3e</td>
+    <td class='c016'>3f</td>
+    <td class='c016'>3g</td>
+    <td class='c016'>3h</td>
+    <td class='c016'>3i</td>
+    <td class='c017'>1b</td>
+  </tr>
+  <tr>
+    <td class='c015'>Aperture</td>
+    <td class='c016'>16</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c017'>16</td>
+  </tr>
+  <tr>
+    <td class='c015'>Setting</td>
+    <td class='c016'>17.2</td>
+    <td class='c016'>17.2</td>
+    <td class='c016'>17.4</td>
+    <td class='c016'>17.6</td>
+    <td class='c016'>17.8</td>
+    <td class='c016'>18.0</td>
+    <td class='c016'>17.0</td>
+    <td class='c016'>16.8</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>17.2</td>
+    <td class='c017'>17.2</td>
+  </tr>
+</table>
+
+<table class='table1'>
+<colgroup>
+<col class='colwidth18'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+</colgroup>
+  <tr><th class='c009' colspan='10'>PLATE MC 21803</th></tr>
+  <tr>
+    <td class='c015'>Spectrum</td>
+    <td class='c016'>1a</td>
+    <td class='c016'>1b</td>
+    <td class='c016'>2e</td>
+    <td class='c016'>3</td>
+    <td class='c016'>4</td>
+    <td class='c016'>2c</td>
+    <td class='c016'>2d</td>
+    <td class='c016'>2b</td>
+    <td class='c017'>2a</td>
+  </tr>
+  <tr>
+    <td class='c015'>Aperture</td>
+    <td class='c016'>16</td>
+    <td class='c016'>16</td>
+    <td class='c016'>8</td>
+    <td class='c016'>4</td>
+    <td class='c016'>2</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c017'>8</td>
+  </tr>
+  <tr>
+    <td class='c015'>Setting</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.2</td>
+    <td class='c016'>16.4</td>
+    <td class='c016'>16.8</td>
+    <td class='c017'>17.0</td>
+  </tr>
+</table>
+
+<p class='c008'>From MC 21648 it is possible to obtain a qualitative estimate of
+focus effects; MC 21803, including spectra taken with all four apertures,
+furnishes a quantitative estimate of the magnitude of the focus
+errors. Microphotometer tracings were made, under uniform conditions,
+of the spectra of each of the focus plates, and measures were
+made at the centers of the lines only.</p>
+
+<p class='c008'>For the plate MC 21648, the observing record book contains the
+entry: “Frost in center of prism at close.” Apparently the frosting
+resulted in a gradual decrease in the intensity of successive spectra,
+which is shown, when the spectra are arranged in the order in which
+they were photographed, by a gradual decrease in <em>n</em>, a quantity that
+should remain constant for the same aperture, since the edges of the
+spectrum, the portion where focus would affect the intensity, are not
+crossed by the analyzing beam of the microphotometer. The progressive
+change in <em>n</em> is shown in Table III.</p>
+
+<table class='table1'>
+<colgroup>
+<col class='colwidth28'>
+<col class='colwidth7'>
+<col class='colwidth14'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+<col class='colwidth7'>
+</colgroup>
+  <tr><th class='c009' colspan='10'>TABLE III</th></tr>
+  <tr>
+    <td class='c016'>Spectrum</td>
+    <td class='c016'>3a</td>
+    <td class='c016'>3b</td>
+    <td class='c016'>3c</td>
+    <td class='c016'>3d</td>
+    <td class='c016'>3e</td>
+    <td class='c016'>3f</td>
+    <td class='c016'>3g</td>
+    <td class='c016'>3h</td>
+    <td class='c017'>3i</td>
+  </tr>
+  <tr>
+    <td class='c016'><em>n</em> at Hβ</td>
+    <td class='c016'>13</td>
+    <td class='c016'>(12)</td>
+    <td class='c016'>13</td>
+    <td class='c016'>15</td>
+    <td class='c016'>16</td>
+    <td class='c016'>16</td>
+    <td class='c016'>17</td>
+    <td class='c016'>18</td>
+    <td class='c017'>17</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hγ</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>8</td>
+    <td class='c016'>11</td>
+    <td class='c016'>9</td>
+    <td class='c016'>10</td>
+    <td class='c016'>11</td>
+    <td class='c016'>10</td>
+    <td class='c017'>11</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hδ</td>
+    <td class='c016'>11</td>
+    <td class='c016'>9</td>
+    <td class='c016'>10</td>
+    <td class='c016'>12</td>
+    <td class='c016'>12</td>
+    <td class='c016'>14</td>
+    <td class='c016'>12</td>
+    <td class='c016'>13</td>
+    <td class='c017'>15</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hε</td>
+    <td class='c016'>16</td>
+    <td class='c016'>14</td>
+    <td class='c016'>17</td>
+    <td class='c016'>15</td>
+    <td class='c016'>18</td>
+    <td class='c016'>19</td>
+    <td class='c016'>19</td>
+    <td class='c016'>19</td>
+    <td class='c017'>20</td>
+  </tr>
+  <tr>
+    <td class='c016'>K</td>
+    <td class='c016'>19</td>
+    <td class='c016'>17</td>
+    <td class='c016'>19</td>
+    <td class='c016'>18</td>
+    <td class='c016'>20</td>
+    <td class='c016'>22</td>
+    <td class='c016'>21</td>
+    <td class='c016'>22</td>
+    <td class='c017'>23</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hζ</td>
+    <td class='c016'>27</td>
+    <td class='c016'>25</td>
+    <td class='c016'>28</td>
+    <td class='c016'>29</td>
+    <td class='c016'>29</td>
+    <td class='c016'>31</td>
+    <td class='c016'>31</td>
+    <td class='c016'>31</td>
+    <td class='c017'>33</td>
+  </tr>
+</table>
+
+<p class='c018'>That the change in <em>n</em> is progressive and not due to change of focus
+is shown by arranging the columns in the order of focus setting, 3h,
+3g, 3f, 3i, 3a, 3b, 3c, 3d, 3e. No regular change in <em>n</em> is then evident.</p>
+
+<p class='c008'>The total deflection of the galvanometer is satisfactorily constant
+for all the microphotometer records of the spectra on MC 21648, excepting
+3i, which is rejected for a large voltage drop (0.2 volts),
+<span class='pageno' id='Page_472'>472</span>producing a reduction of four scale units in total deflection. Spectrum
+3i is omitted from further discussion. The quantity <em>l</em> must be
+corrected for change in <em>n</em>, and this may be done by adding to <em>l</em> a
+quantity equal to the increase in <em>n</em>, since the observed change in <em>n</em>,
+which should be constant, corresponds to a shift of the whole spectrum,
+tending to decrease <em>l</em>. The change in <em>l</em>, the distance from
+“clear film” to line center, as measured on the microphotometer
+tracings, with changing focus, is shown in Table IV. Values of <em>l</em> are
+corrected.</p>
+
+<table class='table1'>
+<colgroup>
+<col class='colwidth20'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+</colgroup>
+  <tr><th class='c009' colspan='9'>TABLE IV</th></tr>
+  <tr>
+    <td class='c016'>Spectrum</td>
+    <td class='c016'>3h</td>
+    <td class='c016'>3g</td>
+    <td class='c016'>3f</td>
+    <td class='c016'>3a</td>
+    <td class='c016'>3b</td>
+    <td class='c016'>3c</td>
+    <td class='c016'>3d</td>
+    <td class='c017'>3e</td>
+  </tr>
+  <tr>
+    <td class='c016'>Focus</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.8</td>
+    <td class='c016'>17.0</td>
+    <td class='c016'>17.2</td>
+    <td class='c016'>17.4</td>
+    <td class='c016'>17.6</td>
+    <td class='c016'>17.8</td>
+    <td class='c017'>18.0</td>
+  </tr>
+  <tr>
+    <td class='c016'><em>l</em> at Hβ</td>
+    <td class='c016'>33</td>
+    <td class='c016'>36</td>
+    <td class='c016'>40</td>
+    <td class='c016'>47</td>
+    <td class='c016'>49</td>
+    <td class='c016'>49</td>
+    <td class='c016'>48</td>
+    <td class='c017'>43</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hγ</td>
+    <td class='c016'>37</td>
+    <td class='c016'>38</td>
+    <td class='c016'>39</td>
+    <td class='c016'>47</td>
+    <td class='c016'>47</td>
+    <td class='c016'>50</td>
+    <td class='c016'>46</td>
+    <td class='c017'>47</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hδ</td>
+    <td class='c016'>32</td>
+    <td class='c016'>35</td>
+    <td class='c016'>31</td>
+    <td class='c016'>40</td>
+    <td class='c016'>41</td>
+    <td class='c016'>45</td>
+    <td class='c016'>43</td>
+    <td class='c017'>40</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hε</td>
+    <td class='c016'>24</td>
+    <td class='c016'>26</td>
+    <td class='c016'>27</td>
+    <td class='c016'>33</td>
+    <td class='c016'>33</td>
+    <td class='c016'>35</td>
+    <td class='c016'>37</td>
+    <td class='c017'>31</td>
+  </tr>
+  <tr>
+    <td class='c016'>K</td>
+    <td class='c016'>42</td>
+    <td class='c016'>44</td>
+    <td class='c016'>42</td>
+    <td class='c016'>50</td>
+    <td class='c016'>50</td>
+    <td class='c016'>52</td>
+    <td class='c016'>54</td>
+    <td class='c017'>47</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hζ</td>
+    <td class='c016'>12</td>
+    <td class='c016'>14</td>
+    <td class='c016'>13</td>
+    <td class='c016'>19</td>
+    <td class='c016'>18</td>
+    <td class='c016'>22</td>
+    <td class='c016'>24</td>
+    <td class='c017'>20</td>
+  </tr>
+</table>
+
+<p class='c018'>The line depth is the greatest, and the focus presumably the best,
+where <em>l</em> is smallest. It appears that spectrum 3h is at best focus.</p>
+
+<p class='c008'>Table V contains the values of <em>m</em> for different focus settings, in the
+same form as Tables III and IV. The quantity <em>m</em> requires no correction
+for change of <em>n</em>. For all the spectra on this plate the K line
+appears double. The last line of Table V contains the distance, in
+scale divisions, between the two maxima of the K line on the microphotometer
+tracing. One scale division corresponds approximately
+to one Angstrom.</p>
+
+<table class='table1'>
+<colgroup>
+<col class='colwidth23'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+</colgroup>
+  <tr><th class='c009' colspan='9'>TABLE V</th></tr>
+  <tr>
+    <td class='c016'>Spectrum</td>
+    <td class='c016'>3h</td>
+    <td class='c016'>3g</td>
+    <td class='c016'>3f</td>
+    <td class='c016'>3a</td>
+    <td class='c016'>3b</td>
+    <td class='c016'>3c</td>
+    <td class='c016'>3d</td>
+    <td class='c017'>3e</td>
+  </tr>
+  <tr>
+    <td class='c016'>Setting</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.8</td>
+    <td class='c016'>17.0</td>
+    <td class='c016'>17.2</td>
+    <td class='c016'>17.4</td>
+    <td class='c016'>17.6</td>
+    <td class='c016'>17.8</td>
+    <td class='c017'>18.0</td>
+  </tr>
+  <tr>
+    <td class='c016'><em>m</em> at Hβ</td>
+    <td class='c016'>16</td>
+    <td class='c016'>16</td>
+    <td class='c016'>14</td>
+    <td class='c016'>13</td>
+    <td class='c016'>13</td>
+    <td class='c016'>12</td>
+    <td class='c016'>9</td>
+    <td class='c017'>11</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hγ</td>
+    <td class='c016'>19</td>
+    <td class='c016'>18</td>
+    <td class='c016'>18</td>
+    <td class='c016'>16</td>
+    <td class='c016'>15</td>
+    <td class='c016'>14</td>
+    <td class='c016'>12</td>
+    <td class='c017'>13</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hδ</td>
+    <td class='c016'>22</td>
+    <td class='c016'>20</td>
+    <td class='c016'>20</td>
+    <td class='c016'>19</td>
+    <td class='c016'>18</td>
+    <td class='c016'>17</td>
+    <td class='c016'>15</td>
+    <td class='c017'>16</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hε</td>
+    <td class='c016'>24</td>
+    <td class='c016'>22</td>
+    <td class='c016'>20</td>
+    <td class='c016'>21</td>
+    <td class='c016'>22</td>
+    <td class='c016'>21</td>
+    <td class='c016'>21</td>
+    <td class='c017'>19</td>
+  </tr>
+  <tr>
+    <td class='c016'>K</td>
+    <td class='c016'>3</td>
+    <td class='c016'>3</td>
+    <td class='c016'>2</td>
+    <td class='c016'>2</td>
+    <td class='c016'>2</td>
+    <td class='c016'>2</td>
+    <td class='c016'>2</td>
+    <td class='c017'>2</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hζ</td>
+    <td class='c016'>24</td>
+    <td class='c016'>23</td>
+    <td class='c016'>23</td>
+    <td class='c016'>24</td>
+    <td class='c016'>25</td>
+    <td class='c016'>23</td>
+    <td class='c016'>29</td>
+    <td class='c017'>28</td>
+  </tr>
+  <tr>
+    <td class='c016'>Width of K</td>
+    <td class='c016'>4</td>
+    <td class='c016'>4</td>
+    <td class='c016'>5</td>
+    <td class='c016'>5</td>
+    <td class='c016'>7</td>
+    <td class='c016'>6.5</td>
+    <td class='c016'>9</td>
+    <td class='c017'>9</td>
+  </tr>
+</table>
+
+<p class='c008'>The data of Table V, and the changing width of the K line (thus
+shown to be an effect of focus) indicate 3h as being the best focussed
+of the nine spectra. This can also be seen visually from the plate.</p>
+
+<p class='c008'><span class='pageno' id='Page_473'>473</span>The focus plate MC 21803 was similarly analyzed and measured.
+No progressive weakening of the spectra is shown by this plate, and
+the measures are therefore uncorrected. For the same plate Table
+VI shows the change of <em>l</em> with focus setting, in the same form as Table
+IV.</p>
+
+<table class='table1'>
+<colgroup>
+<col class='colwidth28'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+</colgroup>
+  <tr><th class='c009' colspan='6'>TABLE VI</th></tr>
+  <tr>
+    <td class='c016'>Spectrum</td>
+    <td class='c016'>2c</td>
+    <td class='c016'>2d</td>
+    <td class='c016'>2e</td>
+    <td class='c016'>2b</td>
+    <td class='c017'>2a</td>
+  </tr>
+  <tr>
+    <td class='c016'>Setting</td>
+    <td class='c016'>16.2</td>
+    <td class='c016'>16.4</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.8</td>
+    <td class='c017'>17.0</td>
+  </tr>
+  <tr>
+    <td class='c016'><em>l</em> at Hβ</td>
+    <td class='c016'>51</td>
+    <td class='c016'>52</td>
+    <td class='c016'>51</td>
+    <td class='c016'>54</td>
+    <td class='c017'>53</td>
+  </tr>
+  <tr>
+    <td class='c016'>4481</td>
+    <td class='c016'>77</td>
+    <td class='c016'>78</td>
+    <td class='c016'>79</td>
+    <td class='c016'>79</td>
+    <td class='c017'>81</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hγ</td>
+    <td class='c016'>54</td>
+    <td class='c016'>55</td>
+    <td class='c016'>56</td>
+    <td class='c016'>55</td>
+    <td class='c017'>56</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hδ</td>
+    <td class='c016'>47</td>
+    <td class='c016'>48</td>
+    <td class='c016'>51</td>
+    <td class='c016'>50</td>
+    <td class='c017'>50</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hε</td>
+    <td class='c016'>39</td>
+    <td class='c016'>39</td>
+    <td class='c016'>42</td>
+    <td class='c016'>43</td>
+    <td class='c017'>41</td>
+  </tr>
+  <tr>
+    <td class='c016'>K</td>
+    <td class='c016'>62</td>
+    <td class='c016'>64</td>
+    <td class='c016'>65</td>
+    <td class='c016'>65</td>
+    <td class='c017'>64</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hζ</td>
+    <td class='c016'>22</td>
+    <td class='c016'>26</td>
+    <td class='c016'>28</td>
+    <td class='c016'>28</td>
+    <td class='c017'>26</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hη</td>
+    <td class='c016'>8</td>
+    <td class='c016'>10</td>
+    <td class='c016'>12</td>
+    <td class='c016'>12</td>
+    <td class='c017'>8</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hθ</td>
+    <td class='c016'>4</td>
+    <td class='c016'>5</td>
+    <td class='c016'>4</td>
+    <td class='c016'>6</td>
+    <td class='c017'>2</td>
+  </tr>
+</table>
+
+<p class='c018'>Table VII is in the same form as Table V, and represents the change of
+<em>m</em> with changing focus. Evidently Spectrum 2c is at best focus.</p>
+
+<table class='table1'>
+<colgroup>
+<col class='colwidth28'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+</colgroup>
+  <tr><th class='c009' colspan='6'>TABLE VII</th></tr>
+  <tr>
+    <td class='c016'>Spectrum</td>
+    <td class='c016'>2c</td>
+    <td class='c016'>2d</td>
+    <td class='c016'>2e</td>
+    <td class='c016'>2b</td>
+    <td class='c017'>2a</td>
+  </tr>
+  <tr>
+    <td class='c016'>Setting</td>
+    <td class='c016'>16.2</td>
+    <td class='c016'>16.4</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.8</td>
+    <td class='c017'>17.0</td>
+  </tr>
+  <tr>
+    <td class='c016'><em>m</em> at Hβ</td>
+    <td class='c016'>22</td>
+    <td class='c016'>22</td>
+    <td class='c016'>21</td>
+    <td class='c016'>20</td>
+    <td class='c017'>19</td>
+  </tr>
+  <tr>
+    <td class='c016'>4481</td>
+    <td class='c016'>3</td>
+    <td class='c016'>3</td>
+    <td class='c016'>2</td>
+    <td class='c016'>2</td>
+    <td class='c017'>2</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hγ</td>
+    <td class='c016'>24</td>
+    <td class='c016'>24</td>
+    <td class='c016'>23</td>
+    <td class='c016'>23</td>
+    <td class='c017'>25</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hδ</td>
+    <td class='c016'>28</td>
+    <td class='c016'>27</td>
+    <td class='c016'>26</td>
+    <td class='c016'>27</td>
+    <td class='c017'>26</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hε</td>
+    <td class='c016'>31</td>
+    <td class='c016'>31</td>
+    <td class='c016'>30</td>
+    <td class='c016'>28</td>
+    <td class='c017'>30</td>
+  </tr>
+  <tr>
+    <td class='c016'>K</td>
+    <td class='c016'>6</td>
+    <td class='c016'>5</td>
+    <td class='c016'>5</td>
+    <td class='c016'>4</td>
+    <td class='c017'>4</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hζ</td>
+    <td class='c016'>36</td>
+    <td class='c016'>33</td>
+    <td class='c016'>34</td>
+    <td class='c016'>33</td>
+    <td class='c017'>34</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hη</td>
+    <td class='c016'>32</td>
+    <td class='c016'>31</td>
+    <td class='c016'>30</td>
+    <td class='c016'>30</td>
+    <td class='c017'>31</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hθ</td>
+    <td class='c016'>20</td>
+    <td class='c016'>19</td>
+    <td class='c016'>20</td>
+    <td class='c016'>19</td>
+    <td class='c017'>19</td>
+  </tr>
+</table>
+
+<p class='c008'>By the use of the four apertured spectra that occur on MC 21803 it
+is possible to evaluate the differences of intensity, produced by the
+change of focus, directly in stellar magnitudes. The method used in
+deriving the intensities is the one employed in compiling Table IX.
+The intensities at the centers of the lines of the various spectra are
+summarized in Table VIII. It appears that Spectrum 2c is at best
+focus for lines at either end of the spectrum, and that the curve of best
+focus moves towards 2b for intermediate lines. The effect is what
+would have been anticipated on general grounds. The magnitude of
+<span class='pageno' id='Page_474'>474</span>the effect is satisfactorily small, as may be seen by comparing the differences
+in Table VIII with the residuals in Table IX. Errors arising
+from bad focus, while they are of appreciable size, do not exceed the
+errors due to other causes. If the spectra to be analyzed appear upon
+visual examination to be in good focus, they will probably not give
+results impaired by serious focus error.</p>
+
+<div  class='figcenter id001'>
+<img src='images/fig_8.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 8.—Microphotometer tracings made from Harvard objective prism spectra of Sirius, MC 21648, to illustrate the effects of focus. Analyses are shown of the five lines indicated on the left margin, for the focus settings given above. The best focus is at 16.8; the short lines below the absorption minima indicate the change in line depth with changing focus. The doubling of the K line, and the increasing distance between the components, is a noticeable effect of focus.</p>
+</div>
+</div>
+
+<p class='c008'>Figure 8 shows, for MC 21648, the lines Hβ, Hγ, Hδ, Hε, and K,
+for four out of the nine focus settings. The change in line depth, and
+the blunting of the intensity curve, are at once apparent.</p>
+
+<table class='table1'>
+<colgroup>
+<col class='colwidth28'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+<col class='colwidth14'>
+</colgroup>
+  <tr><th class='c009' colspan='6'>TABLE VIII</th></tr>
+  <tr>
+    <td class='c016'>Spectrum</td>
+    <td class='c016'>2c</td>
+    <td class='c016'>2d</td>
+    <td class='c016'>2e</td>
+    <td class='c016'>2b</td>
+    <td class='c017'>2a</td>
+  </tr>
+  <tr>
+    <td class='c016'>Setting</td>
+    <td class='c016'>16.2</td>
+    <td class='c016'>16.4</td>
+    <td class='c016'>16.6</td>
+    <td class='c016'>16.8</td>
+    <td class='c017'>17.0</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hβ</td>
+    <td class='c016'>.53</td>
+    <td class='c016'>.53</td>
+    <td class='c016'>.51</td>
+    <td class='c016'>.49</td>
+    <td class='c017'>.47</td>
+  </tr>
+  <tr>
+    <td class='c016'>4481</td>
+    <td class='c016'>.13</td>
+    <td class='c016'>.13</td>
+    <td class='c016'>.09</td>
+    <td class='c016'>.09</td>
+    <td class='c017'>.09</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hγ</td>
+    <td class='c016'>.60</td>
+    <td class='c016'>.59</td>
+    <td class='c016'>.60</td>
+    <td class='c016'>.60</td>
+    <td class='c017'>.63</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hδ</td>
+    <td class='c016'>.63</td>
+    <td class='c016'>.65</td>
+    <td class='c016'>.65</td>
+    <td class='c016'>.66</td>
+    <td class='c017'>.62</td>
+  </tr>
+  <tr>
+    <td class='c016'>Hε</td>
+    <td class='c016'>.62</td>
+    <td class='c016'>.62</td>
+    <td class='c016'>.66</td>
+    <td class='c016'>.62</td>
+    <td class='c017'>.65</td>
+  </tr>
+  <tr>
+    <td class='c016'>K</td>
+    <td class='c016'>.15</td>
+    <td class='c016'>.14</td>
+    <td class='c016'>.13</td>
+    <td class='c016'>.12</td>
+    <td class='c017'>.10</td>
+  </tr>
+</table>
+
+<p class='c008'>c. <em>Accuracy of microphotometer records.</em>—As was pointed out in
+Harvard Bulletin 805, the width of the analyzing beam, which is not
+in any case greater than one-tenth of an Angstrom, is such that no
+smoothing effect need be considered at the line center.</p>
+
+<p class='c008'><span class='pageno' id='Page_475'>475</span>In a few cases the same line of the same spectrum was registered
+twice. The measures made upon the two tracings were always satisfactorily
+accordant.</p>
+
+<div  class='figcenter id001'>
+<img src='images/fig_9.jpg' alt='' class='ig001'>
+<div class='ic001'>
+<p>Figure 9.—Test of the consistency of spectra taken with different apertures.</p>
+</div>
+</div>
+<p class='c008'>Ordinates are distance from “clear film” to “line center” taken from microphotometer tracings of spectra of α Aquilae, MC 20800. Abscissae are the ratio (<em>l</em> + <em>m</em> for one aperture)/(<em>l</em> + <em>m</em> for twice the aperture). The fact that the points lie on a smooth curve indicates that the results are satisfactorily consistent.</p>
+
+<p class='c008'>The consistency of the results given by the tracings of several
+spectra of the same star, when photographed with different apertures,
+may be examined by means of the plot shown in Figure 9. Ordinates
+are values of <em>l</em> + <em>m</em>. Abscissas are values of the ratio</p>
+
+<div class='nf-center-c0'>
+  <div class='nf-center'>
+    <div>((<em>l</em> + <em>m</em>) for one aperture)/((<em>l</em> + <em>m</em>) for twice the aperture).</div>
+  </div>
+</div>
+
+<p class='c018'>It is evident that if the points thus derived fall on a smooth curve, the
+results derived from different tracings of the same spectrum will be
+mutually consistent. The method of interpolation described in
+Section 6 may therefore be used in deriving the differences of intensity
+between line and background.</p>
+
+<p class='c008'>If the method of Section 6 is to be successfully applied, it is essential
+that the total range (“darkness” to “clear film”) shall be uniform for
+a single series of tracings. In general the variations in total range do
+<span class='pageno' id='Page_476'>476</span>not exceed three or four scale units, but, for some spectra, occasional
+changes of eight or ten units have occurred, generally owing to changes
+of voltage or room temperature.</p>
+
+<p class='c008'>Under these circumstances, it has been thought best not to attempt
+to apply any correction for variations in total range, but to reject
+from the “selected mean” readings from spectra that gave very discordant
+total ranges.</p>
+
+<p class='c008'>d. <em>Accuracy of measures.</em> In comparison with the errors of the
+plates and of the microphotometer tracings, the errors in the measurement
+of the records are of relative unimportance. The chief difficulty,
+as mentioned above, is that of drawing from fiducial points the reference
+lines representing the continuous background and the “clear
+film.” The error thus introduced may occasionally amount to one
+millimeter, or two divisions of the scale.</p>
+
+<p class='c008'>It is sometimes difficult to decide upon the position of the center of
+a line, especially when it is wide, without a sharp maximum. This
+may lead to large residuals for measures on the wings, especially for
+such lines as Hε and Hζ.</p>
+
+<p class='c008'>8. The results of the investigation are given in Table IX, which
+contains, in successive columns, the name of the line, the wave length,
+expressed to the nearest Angstrom, the mean value of the difference
+of intensity, background <em>minus</em> line, expressed in stellar magnitudes,
+the residuals, the “selected mean” value of the same intensity difference
+(see Section 6) and its residuals. The stars are mentioned at
+the beginnings of their respective records, and are arranged in order
+of plate number. In the case of stars for which no “selected mean”
+is quoted, all the values used for the mean conform to the criterion for
+“selected mean.”</p>
+
+<table class='table0'>
+<colgroup>
+<col class='colwidth15'>
+<col class='colwidth8'>
+<col class='colwidth13'>
+<col class='colwidth27'>
+<col class='colwidth13'>
+<col class='colwidth20'>
+</colgroup>
+  <tr><td class='c009' colspan='6'>TABLE IX</td></tr>
+  <tr><td class='c009' colspan='6'><span class='sc'>Differences of Intensity, background</span> <em>minus</em> <span class='fss'>LINE</span></td></tr>
+  <tr>
+ <th class='btm bbt blm brt c010'>Plate and Star</th>
+ <th class='btm bbt brt c010'>Wave Length</th>
+ <th class='btm bbt brt c010'>Mean Intensity Difference</th>
+ <th class='btm bbt brt c010'>Residuals</th>
+ <th class='btm bbt brt c010'>Selected Mean Difference</th>
+ <th class='btm bbt brm c010'>Residuals</th>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 20790</td>
+ <td class='brt c019'>4877</td>
+ <td class='brt c011'>.11</td>
+ <td class='brt c019'>1, <em>4</em>, 4</td>
+ <td class='brt c011'>.11</td>
+ <td class='brm c019'><em>4</em>, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>α Lyrae</td>
+ <td class='brt c019'>4872</td>
+ <td class='brt c011'>.23</td>
+ <td class='brt c019'>2, <em>3</em>, 2</td>
+ <td class='brt c011'>.23</td>
+ <td class='brm c019'><em>3</em>, 2</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4866</td>
+ <td class='brt c011'>.49</td>
+ <td class='brt c019'><em>2</em>, 1, 1</td>
+ <td class='brt c011'>.50</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>.95</td>
+ <td class='brt c019'><em>10</em>, 0, 7, 5</td>
+ <td class='brt c011'>.95</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4856</td>
+ <td class='brt c011'>.73</td>
+ <td class='brt c019'>2, <em>3</em>, 2, <em>3</em></td>
+ <td class='brt c011'>.73</td>
+ <td class='brm c019'><em>3</em>, 2</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4851</td>
+ <td class='brt c011'>.35</td>
+ <td class='brt c019'><em>5</em>, 5, 2, <em>3</em></td>
+ <td class='brt c011'>.38</td>
+ <td class='brm c019'>2, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4846</td>
+ <td class='brt c011'>.17</td>
+ <td class='brt c019'><em>5</em>, 3, 3, 0</td>
+ <td class='brt c011'>.19</td>
+ <td class='brm c019'>1, 1, <em>2</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4840</td>
+ <td class='brt c011'>.07</td>
+ <td class='brt c019'><em>2</em>, 0, 3, <em>2</em></td>
+ <td class='brt c011'>.07</td>
+ <td class='brm c019'>0, 3, <em>2</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'><span class='pageno' id='Page_477'>477</span>&#160;</td>
+ <td class='brt c019'>4358</td>
+ <td class='brt c011'>.11</td>
+ <td class='brt c019'><em>6</em>, <em>9</em>, 6, 6, 1</td>
+ <td class='brt c011'>.10</td>
+ <td class='brm c019'><em>8</em>, 7</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4354</td>
+ <td class='brt c011'>.23</td>
+ <td class='brt c019'><em>11</em>, <em>1</em>, 9, 4</td>
+ <td class='brt c011'>.27</td>
+ <td class='brm c019'><em>5</em>, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4349</td>
+ <td class='brt c011'>.45</td>
+ <td class='brt c019'><em>15</em>, 0, 15, 2</td>
+ <td class='brt c011'>.52</td>
+ <td class='brm c019'><em>7</em>, 8</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4345</td>
+ <td class='brt c011'>.83</td>
+ <td class='brt c019'>8, <em>3</em>, 19, <em>8</em></td>
+ <td class='brt c011'>.86</td>
+ <td class='brm c019'><em>6</em>, 16, <em>11</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>1.43</td>
+ <td class='brt c019'><em>6</em>, 19, <em>6</em>, <em>3</em>, <em>3</em></td>
+ <td class='brt c011'>1.62</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4336</td>
+ <td class='brt c011'>.92</td>
+ <td class='brt c019'>8, <em>17</em>, 5, 3</td>
+ <td class='brt c011'>.92</td>
+ <td class='brm c019'>8, <em>17</em>, 5, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4331</td>
+ <td class='brt c011'>.51</td>
+ <td class='brt c019'><em>19</em>, 4, <em>11</em>, 14, 11</td>
+ <td class='brt c011'>.55</td>
+ <td class='brm c019'>0, <em>15</em>, 10, 7</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4327</td>
+ <td class='brt c011'>.25</td>
+ <td class='brt c019'><em>8</em>, <em>5</em>, <em>5</em>, 15, 12, <em>10</em></td>
+ <td class='brt c011'>.29</td>
+ <td class='brm c019'><em>9</em>, <em>9</em>, 11, 8</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4322</td>
+ <td class='brt c011'>.14</td>
+ <td class='brt c019'>2, <em>4</em>, <em>4</em>, 11, 8, <em>7</em></td>
+ <td class='brt c011'>.17</td>
+ <td class='brm c019'><em>7</em>, <em>7</em>, 8, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4116</td>
+ <td class='brt c011'>.13</td>
+ <td class='brt c019'><em>3</em>, 4, 9, <em>8</em></td>
+ <td class='brt c011'>.19</td>
+ <td class='brm c019'><em>2</em>, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4112</td>
+ <td class='brt c011'>.32</td>
+ <td class='brt c019'><em>10</em>, 3, 8</td>
+ <td class='brt c011'>.37</td>
+ <td class='brm c019'><em>2</em>, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4109</td>
+ <td class='brt c011'>.60</td>
+ <td class='brt c019'><em>15</em>, 2, 12</td>
+ <td class='brt c011'>.67</td>
+ <td class='brm c019'><em>5</em>, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4105</td>
+ <td class='brt c011'>.92</td>
+ <td class='brt c019'><em>17</em>, 18, <em>17</em>, 13, 5</td>
+ <td class='brt c011'>.92</td>
+ <td class='brm c019'>18, <em>17</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4102 Hδ</td>
+ <td class='brt c011'>1.60</td>
+ <td class='brt c019'>0, 22, <em>15</em>, <em>5</em></td>
+ <td class='brt c011'>1.82</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4098</td>
+ <td class='brt c011'>1.11</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>1.11</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4095</td>
+ <td class='brt c011'>.72</td>
+ <td class='brt c019'><em>17</em>, 8, 8</td>
+ <td class='brt c011'>.80</td>
+ <td class='brm c019'>0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4091</td>
+ <td class='brt c011'>.33</td>
+ <td class='brt c019'><em>1</em>, 7, <em>1</em>, <em>3</em></td>
+ <td class='brt c011'>.36</td>
+ <td class='brm c019'>4, <em>4</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4088</td>
+ <td class='brt c011'>.21</td>
+ <td class='brt c019'><em>6</em>, <em>1</em>, <em>4</em>, 9</td>
+ <td class='brt c011'>.22</td>
+ <td class='brm c019'><em>2</em>, <em>5</em>, 8</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4084</td>
+ <td class='brt c011'>.13</td>
+ <td class='brt c019'><em>6</em>, <em>3</em>, <em>3</em>, 12</td>
+ <td class='brt c011'>.15</td>
+ <td class='brm c019'><em>5</em>, <em>5</em>, 10</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3986</td>
+ <td class='brt c011'>.11</td>
+ <td class='brt c019'><em>1</em>, 1</td>
+ <td class='brt c011'>.11</td>
+ <td class='brm c019'><em>1</em>, 1</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3983</td>
+ <td class='brt c011'>.21</td>
+ <td class='brt c019'><em>4</em>, 1, <em>6</em>, 9, 6</td>
+ <td class='brt c011'>.23</td>
+ <td class='brm c019'><em>1</em>, <em>8</em>, 7, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3980</td>
+ <td class='brt c011'>.45</td>
+ <td class='brt c019'><em>10</em>, 0, <em>5</em>, 7, 10</td>
+ <td class='brt c011'>.48</td>
+ <td class='brm c019'><em>3</em>, <em>8</em>, 4, 7</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3976</td>
+ <td class='brt c011'>.73</td>
+ <td class='brt c019'><em>26</em>, 7, 14, 4</td>
+ <td class='brt c011'>.80</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3973</td>
+ <td class='brt c011'>1.08</td>
+ <td class='brt c019'><em>6</em>, 5, <em>3</em>, 2</td>
+ <td class='brt c011'>1.17</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>1.68</td>
+ <td class='brt c019'><em>8</em>, 7</td>
+ <td class='brt c011'>1.60</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3967</td>
+ <td class='brt c011'>1.17</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3964</td>
+ <td class='brt c011'>.70</td>
+ <td class='brt c019'><em>13</em>, <em>8</em>, 20</td>
+ <td class='brt c011'>.62</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3960</td>
+ <td class='brt c011'>.56</td>
+ <td class='brt c019'><em>21</em>, 4, 14, 4</td>
+ <td class='brt c011'>.65</td>
+ <td class='brm c019'><em>5</em>, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3957</td>
+ <td class='brt c011'>.28</td>
+ <td class='brt c019'><em>11</em>, 2, <em>3</em>, 12</td>
+ <td class='brt c011'>.32</td>
+ <td class='brm c019'><em>2</em>, 7, 8</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3954</td>
+ <td class='brt c011'>.13</td>
+ <td class='brt c019'><em>3</em>, <em>3</em>, <em>1</em>, 7</td>
+ <td class='brt c011'>.13</td>
+ <td class='brm c019'><em>3</em>, <em>3</em>, <em>1</em>, 7</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3936</td>
+ <td class='brt c011'>.05</td>
+ <td class='brt c019'>0, 0</td>
+ <td class='brt c011'>.05</td>
+ <td class='brm c019'>0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3933 K</td>
+ <td class='brt c011'>.23</td>
+ <td class='brt c019'><em>1</em>, <em>3</em>, <em>3</em>, 7</td>
+ <td class='brt c011'>.23</td>
+ <td class='brm c019'>1, <em>3</em>, <em>3</em>, 7</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3930</td>
+ <td class='brt c011'>.11</td>
+ <td class='brt c019'>1, <em>4</em>, <em>4</em>, 4, 4</td>
+ <td class='brt c011'>.11</td>
+ <td class='brm c019'>1, <em>4</em>, <em>4</em>, 4, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3899</td>
+ <td class='brt c011'>.55</td>
+ <td class='brt c019'>5, 5, 2, 0</td>
+ <td class='brt c011'>.50</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3895</td>
+ <td class='brt c011'>.76</td>
+ <td class='brt c019'>1, <em>1</em>, 1, <em>1</em></td>
+ <td class='brt c011'>.77</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3892</td>
+ <td class='brt c011'>1.03</td>
+ <td class='brt c019'>4, <em>3</em></td>
+ <td class='brt c011'>1.07</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3889 Hζ</td>
+ <td class='brt c011'>1.42</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3887</td>
+ <td class='brt c011'>1.10</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>1.10</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3884</td>
+ <td class='brt c011'>.78</td>
+ <td class='brt c019'><em>3</em>, 2, <em>3</em>, 2</td>
+ <td class='brt c011'>.75</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3880</td>
+ <td class='brt c011'>.43</td>
+ <td class='brt c019'><em>1</em>, <em>1</em>, <em>1</em>, 2</td>
+ <td class='brt c011'>.42</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3845</td>
+ <td class='brt c011'>.62</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3842</td>
+ <td class='brt c011'>> .75</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'><span class='pageno' id='Page_478'>478</span>&#160;</td>
+ <td class='brt c019'>3839</td>
+ <td class='brt c011'>> .75</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3835 Hη</td>
+ <td class='brt c011'>> .75</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3832</td>
+ <td class='brt c011'>.75</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3829</td>
+ <td class='brt c011'>.25</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3826</td>
+ <td class='bbt brt c011'>.16</td>
+ <td class='bbt brt c019'>&#160;</td>
+ <td class='bbt brt c011'>&#160;</td>
+ <td class='bbt brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 20797</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>.54</td>
+ <td class='brt c019'><em>2</em>, 1, 1</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>α Bootis</td>
+ <td class='brt c019'>4227 Ca</td>
+ <td class='brt c011'>1.34</td>
+ <td class='brt c019'>2, 2, <em>3</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4215 Sr+</td>
+ <td class='brt c011'>.50</td>
+ <td class='brt c019'><em>7</em>, 8</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>4101 Hδ</td>
+ <td class='bbt brt c011'>.74</td>
+ <td class='bbt brt c019'><em>2</em>, 3, <em>2</em></td>
+ <td class='bbt brt c011'>&#160;</td>
+ <td class='bbt brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 20800</td>
+ <td class='brt c019'>4877</td>
+ <td class='brt c011'>.00</td>
+ <td class='brt c019'>0, 0</td>
+ <td class='brt c011'>.00</td>
+ <td class='brm c019'>0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>α Aquilae</td>
+ <td class='brt c019'>4872</td>
+ <td class='brt c011'>.12</td>
+ <td class='brt c019'><em>5</em>, 5</td>
+ <td class='brt c011'>.12</td>
+ <td class='brm c019'><em>5</em>, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4866</td>
+ <td class='brt c011'>.36</td>
+ <td class='brt c019'><em>6</em>, 6</td>
+ <td class='brt c011'>.30</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>.71</td>
+ <td class='brt c019'><em>1</em>, 1</td>
+ <td class='brt c011'>.70</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4856</td>
+ <td class='brt c011'>.45</td>
+ <td class='brt c019'><em>5</em>, 5</td>
+ <td class='brt c011'>.45</td>
+ <td class='brm c019'><em>5</em>, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4851</td>
+ <td class='brt c011'>.20</td>
+ <td class='brt c019'><em>5</em>, 5</td>
+ <td class='brt c011'>.20</td>
+ <td class='brm c019'><em>5</em>, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4846</td>
+ <td class='brt c011'>.15</td>
+ <td class='brt c019'><em>3</em>, 2</td>
+ <td class='brt c011'>.15</td>
+ <td class='brm c019'><em>3</em>, 2</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4840</td>
+ <td class='brt c011'>.09</td>
+ <td class='brt c019'><em>7</em>, 8</td>
+ <td class='brt c011'>.09</td>
+ <td class='brm c019'><em>7</em>, 8</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4363</td>
+ <td class='brt c011'>.06</td>
+ <td class='brt c019'><em>1</em>, 1</td>
+ <td class='brt c011'>.06</td>
+ <td class='brm c019'><em>1</em>, 1</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4358</td>
+ <td class='brt c011'>.11</td>
+ <td class='brt c019'><em>4</em>, 4</td>
+ <td class='brt c011'>.11</td>
+ <td class='brm c019'><em>4</em>, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4354</td>
+ <td class='brt c011'>.16</td>
+ <td class='brt c019'><em>4</em>, 4</td>
+ <td class='brt c011'>.16</td>
+ <td class='brm c019'><em>4</em>, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4349</td>
+ <td class='brt c011'>.21</td>
+ <td class='brt c019'><em>4</em>, 4</td>
+ <td class='brt c011'>.21</td>
+ <td class='brm c019'><em>4</em>, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4345</td>
+ <td class='brt c011'>.39</td>
+ <td class='brt c019'>10, <em>9</em></td>
+ <td class='brt c011'>.49</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>.81</td>
+ <td class='brt c019'>1, <em>1</em></td>
+ <td class='brt c011'>.82</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4336</td>
+ <td class='brt c011'>.39</td>
+ <td class='brt c019'>10, <em>9</em></td>
+ <td class='brt c011'>.49</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4331</td>
+ <td class='brt c011'>.21</td>
+ <td class='brt c019'><em>4</em>, 4</td>
+ <td class='brt c011'>.21</td>
+ <td class='brm c019'><em>4</em>, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4327</td>
+ <td class='brt c011'>.16</td>
+ <td class='brt c019'><em>4</em>, 4</td>
+ <td class='brt c011'>.16</td>
+ <td class='brm c019'><em>4</em>, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4322</td>
+ <td class='brt c011'>.07</td>
+ <td class='brt c019'>0, 0</td>
+ <td class='brt c011'>.07</td>
+ <td class='brm c019'>0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4318</td>
+ <td class='brt c011'>.01</td>
+ <td class='brt c019'>1, <em>1</em></td>
+ <td class='brt c011'>.01</td>
+ <td class='brm c019'>1, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4116</td>
+ <td class='brt c011'>.03</td>
+ <td class='brt c019'>4, <em>3</em></td>
+ <td class='brt c011'>.03</td>
+ <td class='brm c019'>4, <em>3</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4112</td>
+ <td class='brt c011'>.10</td>
+ <td class='brt c019'>5, <em>5</em></td>
+ <td class='brt c011'>.10</td>
+ <td class='brm c019'>5, <em>5</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4109</td>
+ <td class='brt c011'>.23</td>
+ <td class='brt c019'><em>7</em>, 8</td>
+ <td class='brt c011'>.23</td>
+ <td class='brm c019'><em>7</em>, 8</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4105</td>
+ <td class='brt c011'>.46</td>
+ <td class='brt c019'>6, <em>6</em></td>
+ <td class='brt c011'>.40</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4102 Hδ</td>
+ <td class='brt c011'>.71</td>
+ <td class='brt c019'>1, <em>1</em></td>
+ <td class='brt c011'>.70</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4098</td>
+ <td class='brt c011'>.50</td>
+ <td class='brt c019'>5, <em>5</em></td>
+ <td class='brt c011'>.50</td>
+ <td class='brm c019'>5, <em>5</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4095</td>
+ <td class='brt c011'>.23</td>
+ <td class='brt c019'>7, <em>6</em></td>
+ <td class='brt c011'>.17</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4091</td>
+ <td class='brt c011'>.10</td>
+ <td class='brt c019'>5, <em>5</em></td>
+ <td class='brt c011'>.10</td>
+ <td class='brm c019'>5, <em>5</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4088</td>
+ <td class='brt c011'>.01</td>
+ <td class='brt c019'>1, <em>1</em></td>
+ <td class='brt c011'>.01</td>
+ <td class='brm c019'>1, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3986</td>
+ <td class='brt c011'>.20</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>.20</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3983</td>
+ <td class='brt c011'>.25</td>
+ <td class='brt c019'>0, 0</td>
+ <td class='brt c011'>.25</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3980</td>
+ <td class='brt c011'>.32</td>
+ <td class='brt c019'><em>2</em>, 3</td>
+ <td class='brt c011'>.30</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3976</td>
+ <td class='brt c011'>.43</td>
+ <td class='brt c019'><em>3</em>, 4</td>
+ <td class='brt c011'>.40</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3973</td>
+ <td class='brt c011'>.81</td>
+ <td class='brt c019'>1, <em>1</em></td>
+ <td class='brt c011'>.82</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'><span class='pageno' id='Page_479'>479</span>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>> 1.50</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>> 1.50</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3967</td>
+ <td class='brt c011'>.79</td>
+ <td class='brt c019'><em>1</em>, 1</td>
+ <td class='brt c011'>.78</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3964</td>
+ <td class='brt c011'>.48</td>
+ <td class='brt c019'><em>13</em>, 14</td>
+ <td class='brt c011'>.35</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3960</td>
+ <td class='brt c011'>.25</td>
+ <td class='brt c019'><em>12</em>, 13</td>
+ <td class='brt c011'>.17</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3957</td>
+ <td class='brt c011'>.12</td>
+ <td class='brt c019'><em>2</em>, 3</td>
+ <td class='brt c011'>.10</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3954</td>
+ <td class='brt c011'>.02</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>.02</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3942</td>
+ <td class='brt c011'>.15</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>.15</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3939</td>
+ <td class='brt c011'>.22</td>
+ <td class='brt c019'><em>2</em>, 3</td>
+ <td class='brt c011'>.20</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3936</td>
+ <td class='brt c011'>.53</td>
+ <td class='brt c019'><em>3</em>, 4</td>
+ <td class='brt c011'>.50</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3933 K</td>
+ <td class='brt c011'>.79</td>
+ <td class='brt c019'><em>3</em>, 2</td>
+ <td class='brt c011'>.82</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3930</td>
+ <td class='brt c011'>.51</td>
+ <td class='brt c019'><em>1</em>, 1</td>
+ <td class='brt c011'>.50</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3927</td>
+ <td class='brt c011'>.07</td>
+ <td class='brt c019'>5, <em>5</em></td>
+ <td class='brt c011'>.12</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3924</td>
+ <td class='bbt brt c011'>.05</td>
+ <td class='bbt brt c019'>&#160;</td>
+ <td class='bbt brt c011'>.05</td>
+ <td class='bbt brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 21640</td>
+ <td class='brt c019'>4866</td>
+ <td class='brt c011'>.07</td>
+ <td class='brt c019'><em>7</em>, <em>5</em>, 0, <em>7</em>, 10, 0, 0</td>
+ <td class='brt c011'>.07</td>
+ <td class='brm c019'>0, 0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>α Cygni</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>.33</td>
+ <td class='brt c019'>2, 4, <em>3</em>, <em>1</em>, <em>3</em>, <em>1</em>, 2</td>
+ <td class='brt c011'>.32</td>
+ <td class='brm c019'>0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4856</td>
+ <td class='brt c011'>.18</td>
+ <td class='brt c019'>4, <em>3</em>, <em>1</em>, 2, <em>3</em>, <em>1</em></td>
+ <td class='brt c011'>.16</td>
+ <td class='brm c019'>1, <em>1</em>, 1</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4345</td>
+ <td class='brt c011'>.11</td>
+ <td class='brt c019'>1, 1, 1, <em>1</em>, <em>1</em></td>
+ <td class='brt c011'>.10</td>
+ <td class='brm c019'>0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>.63</td>
+ <td class='brt c019'><em>1</em>, 2, <em>16</em>, 4, 17, <em>16</em>, 2, 7</td>
+ <td class='brt c011'>.67</td>
+ <td class='brm c019'><em>2</em>, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4336</td>
+ <td class='brt c011'>.21</td>
+ <td class='brt c019'>1, <em>1</em>, 1, <em>1</em></td>
+ <td class='brt c011'>.21</td>
+ <td class='brm c019'>1, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4105</td>
+ <td class='brt c011'>.16</td>
+ <td class='brt c019'>9, 1, <em>6</em>, 4, <em>4</em>, <em>6</em></td>
+ <td class='brt c011'>.11</td>
+ <td class='brm c019'><em>1</em>, 1, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4101 Hδ</td>
+ <td class='brt c011'>.63</td>
+ <td class='brt c019'>17, <em>3</em>, <em>16</em>, 2, 2</td>
+ <td class='brt c011'>.56</td>
+ <td class='brm c019'><em>8</em>, 9</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4098</td>
+ <td class='brt c011'>.37</td>
+ <td class='brt c019'>13, <em>2</em>, <em>7</em>, 0, <em>5</em></td>
+ <td class='brt c011'>.31</td>
+ <td class='brm c019'><em>1</em>, 1</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3973</td>
+ <td class='brt c011'>.25</td>
+ <td class='brt c019'><em>5</em>, 5, 5, 0, <em>5</em>, 0, 7, 2, <em>5</em>, 0, <em>5</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>.70</td>
+ <td class='brt c019'>15, 5, <em>5</em>, <em>5</em>, 22, <em>8</em>, <em>5</em>, <em>3</em>, <em>5</em>, <em>3</em></td>
+ <td class='brt c011'>.66</td>
+ <td class='brm c019'><em>1</em>, 1, <em>1</em>, 1</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3967</td>
+ <td class='brt c011'>.46</td>
+ <td class='brt c019'>24, <em>4</em>, <em>19</em>, 14, <em>1</em>, <em>4</em>, 16, <em>14</em>, <em>16</em>, 4, 1</td>
+ <td class='brt c011'>.34</td>
+ <td class='brm c019'><em>7</em>, <em>2</em>, 8</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3936</td>
+ <td class='brt c011'>.10</td>
+ <td class='brt c019'>20, 0, <em>3</em>, <em>5</em>, <em>5</em>, 0, 2, <em>3</em>, <em>3</em></td>
+ <td class='brt c011'>.06</td>
+ <td class='brm c019'><em>1</em>, 1</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3933 K</td>
+ <td class='brt c011'>.54</td>
+ <td class='brt c019'>13, 1, <em>7</em>, 1, <em>10</em></td>
+ <td class='brt c011'>.52</td>
+ <td class='brm c019'>3, <em>5</em>, 3</td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3933</td>
+ <td class='bbt brt c011'>.37</td>
+ <td class='bbt brt c019'>8, <em>7</em>, <em>7</em>, <em>5</em>, 8, 8, 0, <em>10</em></td>
+ <td class='bbt brt c011'>.35</td>
+ <td class='bbt brm c019'><em>3</em>, 2</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 21645</td>
+ <td class='brt c019'>4877</td>
+ <td class='brt c011'>.32</td>
+ <td class='brt c019'><em>15</em>, 15</td>
+ <td class='brt c011'>.47</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>δ Cassiopeiae</td>
+ <td class='brt c019'>4872</td>
+ <td class='brt c011'>.42</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>.42</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4866</td>
+ <td class='brt c011'>.72</td>
+ <td class='brt c019'><em>2</em>, 3</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>1.49</td>
+ <td class='brt c019'><em>7</em>, <em>7</em>, 23, <em>7</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4856</td>
+ <td class='brt c011'>.72</td>
+ <td class='brt c019'><em>17</em>, 18</td>
+ <td class='brt c011'>.90</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4851</td>
+ <td class='brt c011'>.34</td>
+ <td class='brt c019'><em>9</em>, <em>7</em>, 16</td>
+ <td class='brt c011'>.50</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4846</td>
+ <td class='brt c011'>.13</td>
+ <td class='brt c019'><em>1</em>, <em>3</em>, 4</td>
+ <td class='brt c011'>.17</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4354</td>
+ <td class='brt c011'>.31</td>
+ <td class='brt c019'>4, <em>14</em>, <em>16</em>, 6, 6, 9, 9, <em>4</em></td>
+ <td class='brt c011'>.31</td>
+ <td class='brm c019'><em>16</em>, 6, 9</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4349</td>
+ <td class='brt c011'>.45</td>
+ <td class='brt c019'>5, <em>13</em>, 12, 7, 5, 5, <em>23</em></td>
+ <td class='brt c011'>.45</td>
+ <td class='brm c019'><em>13</em>, 7, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4345</td>
+ <td class='brt c011'>.81</td>
+ <td class='brt c019'>1, <em>1</em>, 24, <em>6</em>, <em>11</em>, 16, <em>21</em></td>
+ <td class='brt c011'>.75</td>
+ <td class='brm c019'>5, 0, <em>5</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'><span class='pageno' id='Page_480'>480</span>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>1.46</td>
+ <td class='brt c019'>4, 9, <em>4</em>, 9, <em>16</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4336</td>
+ <td class='brt c011'>.84</td>
+ <td class='brt c019'>33, 18, <em>9</em>, <em>14</em>, <em>9</em>, <em>19</em></td>
+ <td class='brt c011'>.86</td>
+ <td class='brm c019'>16, <em>16</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4331</td>
+ <td class='brt c011'>.55</td>
+ <td class='brt c019'>20, <em>18</em>, <em>5</em>, 7, <em>5</em>, 5, <em>3</em></td>
+ <td class='brt c011'>.50</td>
+ <td class='brm c019'><em>13</em>, 12, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4327</td>
+ <td class='brt c011'>.32</td>
+ <td class='brt c019'>20, <em>15</em>, <em>2</em>, 13, 3, 0, <em>17</em></td>
+ <td class='brt c011'>.32</td>
+ <td class='brm c019'><em>15</em>, 13, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4112</td>
+ <td class='brt c011'>.34</td>
+ <td class='brt c019'><em>2</em>, <em>4</em>, <em>14</em>, 8, 1, 1, 6, 1</td>
+ <td class='brt c011'>.30</td>
+ <td class='brm c019'>0, <em>10</em>, 5, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4109</td>
+ <td class='brt c011'>.54</td>
+ <td class='brt c019'><em>4</em>, <em>12</em>, <em>22</em>, 21, <em>4</em>, 11, 13</td>
+ <td class='brt c011'>.47</td>
+ <td class='brm c019'><em>5</em>, <em>15</em>, 3, 18</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4105</td>
+ <td class='brt c011'>.88</td>
+ <td class='brt c019'>2, <em>8</em>, <em>18</em>, <em>13</em>, 34, 17, <em>13</em>, <em>3</em></td>
+ <td class='brt c011'>.75</td>
+ <td class='brm c019'>5, <em>5</em>, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4102 Hδ</td>
+ <td class='brt c011'>1.54</td>
+ <td class='brt c019'>1, 6, <em>4</em>, 1, <em>4</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4098</td>
+ <td class='brt c011'>.86</td>
+ <td class='brt c019'><em>4</em>, <em>6</em>, <em>11</em>, 29, <em>11</em>, <em>19</em>, 26</td>
+ <td class='brt c011'>.74</td>
+ <td class='brm c019'>6, 1, 1, <em>7</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4095</td>
+ <td class='brt c011'>.53</td>
+ <td class='brt c019'><em>13</em>, <em>8</em>, <em>8</em>, 22, <em>3</em>, <em>3</em>, 14</td>
+ <td class='brt c011'>.47</td>
+ <td class='brm c019'><em>2</em>, <em>2</em>, 3, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4091</td>
+ <td class='brt c011'>.33</td>
+ <td class='brt c019'><em>11</em>, <em>8</em>, <em>8</em>, 17, 9, <em>8</em>, 9</td>
+ <td class='brt c011'>.29</td>
+ <td class='brm c019'><em>4</em>, <em>4</em>, 13, <em>4</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3976</td>
+ <td class='brt c011'>.84</td>
+ <td class='brt c019'><em>9</em>, <em>4</em>, <em>29</em>, <em>7</em>, 56, <em>17</em>, <em>9</em>,</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>21</td>
+ <td class='brt c011'>.68</td>
+ <td class='brm c019'><em>13</em>, 9, <em>1</em>, 7</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3973</td>
+ <td class='brt c011'>1.37</td>
+ <td class='brt c019'><em>7</em>, 23, <em>32</em>, 13, 1</td>
+ <td class='brt c011'>1.27</td>
+ <td class='brm c019'><em>22</em>, 23</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>2.15</td>
+ <td class='brt c019'><em>5</em>, 15, <em>5</em>, <em>10</em>, 12</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3933 K</td>
+ <td class='bbt brt c011'>1.48</td>
+ <td class='bbt brt c019'><em>23</em>, <em>3</em>, 2, 22, 2</td>
+ <td class='bbt brt c011'>&#160;</td>
+ <td class='bbt brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 21646</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>.25</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>.25</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>α Cassiopeiae</td>
+ <td class='brt c019'>4444 Ti+</td>
+ <td class='brt c011'>.31</td>
+ <td class='brt c019'><em>6</em>, 6</td>
+ <td class='brt c011'>.31</td>
+ <td class='brm c019'><em>6</em>, 6</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>.42</td>
+ <td class='brt c019'><em>5</em>, 5</td>
+ <td class='brt c011'>.42</td>
+ <td class='brm c019'><em>5</em>, 5</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4227 Ca</td>
+ <td class='brt c011'>.83</td>
+ <td class='brt c019'>2, <em>1</em></td>
+ <td class='brt c011'>.83</td>
+ <td class='brm c019'>2, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4215 Sr+</td>
+ <td class='brt c011'>.71</td>
+ <td class='brt c019'>1, <em>1</em></td>
+ <td class='brt c011'>.71</td>
+ <td class='brm c019'>1, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4101 Hδ</td>
+ <td class='brt c011'>.56</td>
+ <td class='brt c019'>11, <em>11</em></td>
+ <td class='brt c011'>.56</td>
+ <td class='brm c019'>11, <em>11</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>2.50</td>
+ <td class='brt c019'>5, <em>5</em></td>
+ <td class='brt c011'>2.50</td>
+ <td class='brm c019'>5, <em>5</em></td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3933 K</td>
+ <td class='bbt brt c011'>2.47</td>
+ <td class='bbt brt c019'>&#160;</td>
+ <td class='bbt brt c011'>2.47</td>
+ <td class='bbt brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 21721</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>.43</td>
+ <td class='brt c019'><em>16</em>, <em>11</em>, 4, 32, <em>11</em>, 4</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>α Aurigae</td>
+ <td class='brt c019'>4444 Ti+</td>
+ <td class='brt c011'>.21</td>
+ <td class='brt c019'><em>9</em>, <em>14</em>, <em>1</em>, 11, 4, 11, 1</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>.74</td>
+ <td class='brt c019'>21, 11, 1, <em>7</em>, <em>9</em>, <em>4</em>, <em>12</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4326 Fe</td>
+ <td class='brt c011'>.62</td>
+ <td class='brt c019'>13, 5, <em>10</em>, 13, 5, <em>17</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4227 Ca</td>
+ <td class='brt c011'>.57</td>
+ <td class='brt c019'>30, <em>37</em>, 5, <em>7</em>, 8</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4215 Sr+</td>
+ <td class='brt c011'>.36</td>
+ <td class='brt c019'>14, <em>11</em>, 1, 4, <em>6</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4101 Hδ</td>
+ <td class='brt c011'>.57</td>
+ <td class='brt c019'>0, <em>12</em>, 10, 13, <em>2</em>, 5, <em>17</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3976</td>
+ <td class='brt c011'>.53</td>
+ <td class='brt c019'>2, <em>1</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3973</td>
+ <td class='brt c011'>1.14</td>
+ <td class='brt c019'>8, <em>7</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>1.62</td>
+ <td class='brt c019'>13, 5, <em>17</em>, 23, <em>22</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3967</td>
+ <td class='brt c011'>1.13</td>
+ <td class='brt c019'>17, <em>16</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3964</td>
+ <td class='brt c011'>.62</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'><span class='pageno' id='Page_481'>481</span>&#160;</td>
+ <td class='brt c019'>3939</td>
+ <td class='brt c011'>.80</td>
+ <td class='brt c019'>0, <em>5</em>, <em>5</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3936</td>
+ <td class='brt c011'>1.27</td>
+ <td class='brt c019'>10, <em>10</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3933 K</td>
+ <td class='brt c011'>1.67</td>
+ <td class='brt c019'>5, 3, <em>10</em>, 0, 5</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3930</td>
+ <td class='brt c011'>1.27</td>
+ <td class='brt c019'>10, <em>10</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3927</td>
+ <td class='bbt brt c011'>.76</td>
+ <td class='bbt brt c019'>4, <em>6</em>, 1</td>
+ <td class='bbt brt c011'>&#160;</td>
+ <td class='bbt brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 21722</td>
+ <td class='brt c019'>4866</td>
+ <td class='brt c011'>.32</td>
+ <td class='brt c019'>5, 0, <em>10</em>, 5</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>δ Canis</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>.61</td>
+ <td class='brt c019'>1, 4, <em>4</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>Majoris</td>
+ <td class='brt c019'>4856</td>
+ <td class='brt c011'>.28</td>
+ <td class='brt c019'>4, <em>1</em>, <em>6</em>, 2</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4444 Ti+</td>
+ <td class='brt c011'>.76</td>
+ <td class='brt c019'>4, 4, <em>6</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4345</td>
+ <td class='brt c011'>1.12</td>
+ <td class='brt c019'><em>7</em>, 8</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>1.12</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4336</td>
+ <td class='brt c011'>1.21</td>
+ <td class='brt c019'><em>9</em>, 9</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4326 Fe</td>
+ <td class='brt c011'>.78</td>
+ <td class='brt c019'><em>7</em>, <em>8</em>, 2</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4227 Ca</td>
+ <td class='brt c011'>.70</td>
+ <td class='brt c019'><em>10</em>, 10</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4215 Sr+</td>
+ <td class='brt c011'>.51</td>
+ <td class='brt c019'><em>1</em>, 1</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4105</td>
+ <td class='brt c011'>.31</td>
+ <td class='brt c019'>1, <em>1</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4101 Hδ</td>
+ <td class='brt c011'>.86</td>
+ <td class='brt c019'><em>1</em>, <em>1</em>, 1</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4098</td>
+ <td class='brt c011'>.21</td>
+ <td class='brt c019'>6, <em>6</em></td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>> 2.25</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3933 K</td>
+ <td class='bbt brt c011'>> 2.25</td>
+ <td class='bbt brt c019'>&#160;</td>
+ <td class='bbt brt c011'>&#160;</td>
+ <td class='bbt brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 21788</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>.22</td>
+ <td class='brt c019'>0, 3, 3, 3, 3, <em>10</em></td>
+ <td class='brt c011'>.25</td>
+ <td class='brm c019'>0, 0, 0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>ß Orionis</td>
+ <td class='brt c019'>4481 Mg+</td>
+ <td class='brt c011'>.22</td>
+ <td class='brt c019'>3, 3, 0, 8, 0, <em>12</em></td>
+ <td class='brt c011'>.22</td>
+ <td class='brm c019'>3, 0, 8, 0, <em>12</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4471 He</td>
+ <td class='brt c011'>.21</td>
+ <td class='brt c019'>4, 4, 1, 9, 1, <em>11</em></td>
+ <td class='brt c011'>.16</td>
+ <td class='brm c019'>1, 6, <em>6</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>.45</td>
+ <td class='brt c019'>20, <em>5</em>, <em>5</em>, 15, <em>5</em>, <em>18</em></td>
+ <td class='brt c011'>.36</td>
+ <td class='brm c019'>4, 4, <em>9</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4101 Hδ</td>
+ <td class='brt c011'>.43</td>
+ <td class='brt c019'>12, <em>3</em>, <em>3</em>, 12, <em>3</em>, <em>13</em></td>
+ <td class='brt c011'>.40</td>
+ <td class='brm c019'>0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4026 He</td>
+ <td class='brt c011'>.14</td>
+ <td class='brt c019'>3, 1, <em>2</em>, 8, <em>2</em>, <em>5</em></td>
+ <td class='brt c011'>.12</td>
+ <td class='brm c019'>0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>.45</td>
+ <td class='brt c019'>10, 5, 0, 7, <em>5</em>, <em>18</em></td>
+ <td class='brt c011'>.46</td>
+ <td class='brm c019'>4, <em>1</em>, 6, <em>6</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3933 K</td>
+ <td class='brt c011'>.17</td>
+ <td class='brt c019'><em>2</em>, 3, 3, 0, <em>2</em>, <em>2</em></td>
+ <td class='brt c011'>.18</td>
+ <td class='brm c019'>2, 2, <em>1</em>, <em>3</em></td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3889 Hζ</td>
+ <td class='bbt brt c011'>.43</td>
+ <td class='bbt brt c019'>12, 12, <em>8</em>, 11, <em>8</em>, <em>18</em></td>
+ <td class='bbt brt c011'>.54</td>
+ <td class='bbt brm c019'>1, 1, <em>2</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 21789</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>.23</td>
+ <td class='brt c019'>7, <em>3</em>, <em>1</em>, <em>3</em></td>
+ <td class='brt c011'>.23</td>
+ <td class='brm c019'>7, <em>3</em>, <em>1</em>, <em>3</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>ε Orionis</td>
+ <td class='brt c019'>4471 He</td>
+ <td class='brt c011'>.31</td>
+ <td class='brt c019'>16, <em>6</em>, 1, <em>11</em></td>
+ <td class='brt c011'>.20</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4387 He</td>
+ <td class='brt c011'>.24</td>
+ <td class='brt c019'><em>2</em>, <em>4</em>, 8, <em>2</em></td>
+ <td class='brt c011'>.20</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>.40</td>
+ <td class='brt c019'>12, <em>8</em>, 2, <em>5</em></td>
+ <td class='brt c011'>.35</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4116 He</td>
+ <td class='brt c011'>.17</td>
+ <td class='brt c019'>5, <em>2</em>, <em>5</em>, <em>2</em>, 3</td>
+ <td class='brt c011'>.17</td>
+ <td class='brm c019'><em>2</em>, <em>2</em>, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4101 Hδ</td>
+ <td class='brt c011'>.37</td>
+ <td class='brt c019'>5, <em>5</em>, 3, <em>2</em></td>
+ <td class='brt c011'>.36</td>
+ <td class='brm c019'><em>4</em>, 4, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4097</td>
+ <td class='brt c011'>.17</td>
+ <td class='brt c019'>5, <em>2</em>, <em>2</em>, <em>2</em></td>
+ <td class='brt c011'>.15</td>
+ <td class='brm c019'>0, 0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4026 He</td>
+ <td class='brt c011'>.19</td>
+ <td class='brt c019'>1, 1, 1, <em>4</em></td>
+ <td class='brt c011'>.17</td>
+ <td class='brm c019'>3, <em>2</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'><span class='pageno' id='Page_482'>482</span>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>.32</td>
+ <td class='brt c019'>8, <em>2</em>, 5, <em>10</em></td>
+ <td class='brt c011'>.30</td>
+ <td class='brm c019'>7, <em>8</em></td>
+  </tr>
+  <tr>
+ <td class='bbt blm brt c019'>&#160;</td>
+ <td class='bbt brt c019'>3889 Hζ</td>
+ <td class='bbt brt c011'>.33</td>
+ <td class='bbt brt c019'>2, 14, <em>6</em>, <em>11</em></td>
+ <td class='bbt brt c011'>.33</td>
+ <td class='bbt brm c019'>2, 14, <em>6</em>, <em>11</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>MC 21803</td>
+ <td class='brt c019'>4877</td>
+ <td class='brt c011'>.12</td>
+ <td class='brt c019'>3, <em>2</em>, <em>2</em>, 0, <em>2</em>, 0</td>
+ <td class='brt c011'>.11</td>
+ <td class='brm c019'><em>1</em>, <em>1</em>, 1, <em>1</em>, 1</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>α Canis</td>
+ <td class='brt c019'>4872</td>
+ <td class='brt c011'>.30</td>
+ <td class='brt c019'>25, <em>8</em>, <em>5</em>, 0, <em>10</em>, <em>5</em></td>
+ <td class='brt c011'>.25</td>
+ <td class='brm c019'><em>3</em>, 0, 5, <em>5</em>, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>Majoris</td>
+ <td class='brt c019'>4866</td>
+ <td class='brt c011'>.56</td>
+ <td class='brt c019'>11, <em>4</em>, <em>4</em>, 9, <em>6</em>, 4</td>
+ <td class='brt c011'>.55</td>
+ <td class='brm c019'><em>3</em>, <em>3</em>, 10, <em>5</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4861 Hβ</td>
+ <td class='brt c011'>1.02</td>
+ <td class='brt c019'>18, <em>7</em>, <em>2</em>, <em>10</em></td>
+ <td class='brt c011'>.96</td>
+ <td class='brm c019'><em>1</em>, 4, <em>4</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4856</td>
+ <td class='brt c011'>.67</td>
+ <td class='brt c019'>13, <em>12</em>, 0, 13, <em>12</em>, 0</td>
+ <td class='brt c011'>.65</td>
+ <td class='brm c019'><em>10</em>, 2, 15, <em>10</em>, 12</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4851</td>
+ <td class='brt c011'>.31</td>
+ <td class='brt c019'>11, <em>4</em>, <em>4</em>, 1, <em>4</em>, 1</td>
+ <td class='brt c011'>.29</td>
+ <td class='brm c019'><em>2</em>, <em>2</em>, 3, <em>2</em>, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4846</td>
+ <td class='brt c011'>.13</td>
+ <td class='brt c019'>9, <em>1</em>, <em>3</em>, <em>3</em>, 2, <em>1</em>, <em>3</em></td>
+ <td class='brt c011'>.12</td>
+ <td class='brm c019'>0, <em>2</em>, <em>2</em>, 3, 0, <em>2</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4481 Mg+</td>
+ <td class='brt c011'>.20</td>
+ <td class='brt c019'>5, 0, 0, 0, 0, <em>8</em></td>
+ <td class='brt c011'>.18</td>
+ <td class='brm c019'>2, 2, 2, 2, <em>6</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4354</td>
+ <td class='brt c011'>.28</td>
+ <td class='brt c019'>2, <em>6</em>, 7, <em>6</em>, <em>1</em>, 4</td>
+ <td class='brt c011'>.31</td>
+ <td class='brm c019'>4, <em>4</em>, 1</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4349</td>
+ <td class='brt c011'>.45</td>
+ <td class='brt c019'>5, <em>3</em>, 2, <em>3</em>, <em>3</em>, 2</td>
+ <td class='brt c011'>.45</td>
+ <td class='brm c019'>2, <em>3</em>, 2</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4345</td>
+ <td class='brt c011'>.80</td>
+ <td class='brt c019'>10, <em>5</em>, 0, <em>5</em>, 2</td>
+ <td class='brt c011'>.79</td>
+ <td class='brm c019'>1, <em>4</em>, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4340 Hγ</td>
+ <td class='brt c011'>1.38</td>
+ <td class='brt c019'>7, <em>8</em>, 7, <em>6</em></td>
+ <td class='brt c011'>1.39</td>
+ <td class='brm c019'>6, <em>7</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4336</td>
+ <td class='brt c011'>.83</td>
+ <td class='brt c019'><em>1</em>, 4, <em>6</em>, <em>3</em>, 2, 2</td>
+ <td class='brt c011'>.82</td>
+ <td class='brm c019'><em>5</em>, 3, 3</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4331</td>
+ <td class='brt c011'>.43</td>
+ <td class='brt c019'><em>3</em>, <em>1</em>, 4, <em>8</em>, 4, 2</td>
+ <td class='brt c011'>.46</td>
+ <td class='brm c019'>1, 1, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4327</td>
+ <td class='brt c011'>.27</td>
+ <td class='brt c019'>3, <em>5</em>, 3, 0, 0, 0</td>
+ <td class='brt c011'>.28</td>
+ <td class='brm c019'>2, <em>1</em>, <em>1</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4125</td>
+ <td class='brt c011'>.12</td>
+ <td class='brt c019'>10, <em>7</em>, <em>5</em>, <em>2</em>, <em>2</em>, 3</td>
+ <td class='brt c011'>.11</td>
+ <td class='brm c019'><em>4</em>, <em>1</em>, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4121</td>
+ <td class='brt c011'>.20</td>
+ <td class='brt c019'>15, <em>5</em>, <em>5</em>, <em>3</em>, <em>5</em>, 2</td>
+ <td class='brt c011'>.17</td>
+ <td class='brm c019'><em>2</em>, <em>2</em>, 4</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4116</td>
+ <td class='brt c011'>.42</td>
+ <td class='brt c019'>15, <em>7</em>, <em>10</em>, 0, <em>10</em>, 10</td>
+ <td class='brt c011'>.39</td>
+ <td class='brm c019'><em>7</em>, <em>7</em>, 13</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4112</td>
+ <td class='brt c011'>.60</td>
+ <td class='brt c019'>15, <em>5</em>, <em>8</em>, 15, <em>8</em>, <em>8</em></td>
+ <td class='brt c011'>.52</td>
+ <td class='brm c019'>0, 0, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4109</td>
+ <td class='brt c011'>.98</td>
+ <td class='brt c019'>17, <em>16</em>, 4, <em>6</em></td>
+ <td class='brt c011'>.97</td>
+ <td class='brm c019'>5, <em>5</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4102 Hδ</td>
+ <td class='brt c011'>1.45</td>
+ <td class='brt c019'>12, <em>13</em>, 17, <em>15</em></td>
+ <td class='brt c011'>1.46</td>
+ <td class='brm c019'>16, <em>16</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4098</td>
+ <td class='brt c011'>1.04</td>
+ <td class='brt c019'>21, <em>9</em>, 2, <em>12</em></td>
+ <td class='brt c011'>.97</td>
+ <td class='brm c019'>5, <em>5</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4095</td>
+ <td class='brt c011'>.61</td>
+ <td class='brt c019'>29, <em>6</em>, <em>9</em>, <em>9</em>, <em>6</em></td>
+ <td class='brt c011'>.53</td>
+ <td class='brm c019'><em>1</em>, <em>1</em>, 2</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4091</td>
+ <td class='brt c011'>.43</td>
+ <td class='brt c019'>14, <em>3</em>, <em>16</em>, 4, <em>11</em>, 9</td>
+ <td class='brt c011'>.37</td>
+ <td class='brm c019'><em>10</em>, <em>5</em>, 15</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4088</td>
+ <td class='brt c011'>.24</td>
+ <td class='brt c019'>11, <em>2</em>, <em>7</em>, 1, <em>4</em>, <em>2</em></td>
+ <td class='brt c011'>.20</td>
+ <td class='brm c019'><em>3</em>, 0, 2</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>4084</td>
+ <td class='brt c011'>.12</td>
+ <td class='brt c019'>10, 0, <em>7</em>, 0, <em>7</em>, 3</td>
+ <td class='brt c011'>.08</td>
+ <td class='brm c019'><em>3</em>, <em>3</em>, 7</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3986</td>
+ <td class='brt c011'>.12</td>
+ <td class='brt c019'>7, 0, <em>12</em>, <em>5</em>, 10, 2, 0</td>
+ <td class='brt c011'>.12</td>
+ <td class='brm c019'>0, <em>12</em>, <em>5</em>, 10, 2, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3983</td>
+ <td class='brt c011'>.25</td>
+ <td class='brt c019'>7, <em>2</em>, <em>7</em>, 7, 0, 2</td>
+ <td class='brt c011'>.25</td>
+ <td class='brm c019'><em>2</em>, <em>7</em>, 7, 0, 2</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3980</td>
+ <td class='brt c011'>.42</td>
+ <td class='brt c019'>15, <em>2</em>, <em>10</em>, 12, 0, <em>7</em></td>
+ <td class='brt c011'>.42</td>
+ <td class='brm c019'><em>2</em>, <em>10</em>, 12, 0</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3976</td>
+ <td class='brt c011'>.66</td>
+ <td class='brt c019'>22, <em>2</em>, <em>5</em>, 0, <em>18</em></td>
+ <td class='brt c011'>.58</td>
+ <td class='brm c019'>5, 2, 7, <em>10</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3973</td>
+ <td class='brt c011'>.86</td>
+ <td class='brt c019'><em>22</em>, 13, 8</td>
+ <td class='brt c011'>.97</td>
+ <td class='brm c019'>3, <em>2</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3970 Hε</td>
+ <td class='brt c011'>1.47</td>
+ <td class='brt c019'>11, <em>11</em>, 18, <em>11</em></td>
+ <td class='brt c011'>1.45</td>
+ <td class='brm c019'><em>11</em>, 20, <em>9</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3967</td>
+ <td class='brt c011'>1.10</td>
+ <td class='brt c019'>20, <em>8</em>, 2, <em>15</em></td>
+ <td class='brt c011'>1.02</td>
+ <td class='brm c019'>0, 10, <em>7</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3964</td>
+ <td class='brt c011'>.70</td>
+ <td class='brt c019'>27, <em>3</em>, <em>10</em>, <em>5</em>, <em>15</em></td>
+ <td class='brt c011'>.64</td>
+ <td class='brm c019'><em>5</em>, <em>2</em>, 3, <em>7</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3960</td>
+ <td class='brt c011'>.47</td>
+ <td class='brt c019'>23, <em>2</em>, <em>5</em>, 3, <em>7</em>, <em>10</em></td>
+ <td class='brt c011'>.43</td>
+ <td class='brm c019'>2, <em>1</em>, 7, <em>3</em>, <em>6</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3957</td>
+ <td class='brt c011'>.33</td>
+ <td class='brt c019'>24, 0, <em>6</em>, 0, <em>8</em>, <em>8</em></td>
+ <td class='brt c011'>.28</td>
+ <td class='brm c019'>5, <em>1</em>, 5, <em>3</em>, <em>3</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3954</td>
+ <td class='brt c011'>.23</td>
+ <td class='brt c019'>19, 4, <em>6</em>, <em>13</em>, <em>11</em></td>
+ <td class='brt c011'>.16</td>
+ <td class='brm c019'>11, 1, <em>6</em>, <em>4</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>3933 K</td>
+ <td class='brt c011'>.18</td>
+ <td class='brt c019'>12, 2, <em>6</em>, 4, <em>3</em>, <em>6</em></td>
+ <td class='brt c011'>.17</td>
+ <td class='brm c019'>3, <em>5</em>, 5, <em>2</em></td>
+  </tr>
+  <tr>
+ <td class='blm brt c019'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brt c019'>&#160;</td>
+ <td class='brt c011'>&#160;</td>
+ <td class='brm c019'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='bbm blm brt c019'>&#160;</td>
+ <td class='bbm brt c019'>3889 Hζ</td>
+ <td class='bbm brt c011'>1.48</td>
+ <td class='bbm brt c019'>7, <em>9</em>, 17, <em>16</em></td>
+ <td class='bbm brt c011'>1.55</td>
+ <td class='bbm brm c019'>&#160;</td>
+  </tr>
+</table>
+
+<p class='c008'><span class='pageno' id='Page_483'>483</span>9. Table X contains a summary of the results, for line centers only.
+Successive columns give the name of the star, the spectral class, the
+absolute magnitude, and the drop in magnitudes from background to
+line center, for the spectrum lines mentioned at the heads of the
+columns. The greater line depth for absolutely brighter stars, at
+least among those of the second type, is especially to be noted.</p>
+
+<table class='table0'>
+<colgroup>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+<col class='colwidth10'>
+</colgroup>
+  <tr><th class='c009' colspan='10'>TABLE X</th></tr>
+  <tr><th class='c009' colspan='10'><span class='sc'>Drop in Intensity, from Background to Line Center, for Eleven Stars, expressed in Stellar Magnitudes</span></th></tr>
+  <tr>
+ <th class='btm bbt blm c010'>Star</th>
+ <th class='btm bbt blt c010'>Class</th>
+ <th class='btm bbt blt c010'>M</th>
+ <th class='btm bbt blt c010'>Hβ</th>
+ <th class='btm bbt blt c010'>Hγ</th>
+ <th class='btm bbt blt c010'>Hδ</th>
+ <th class='btm bbt blt c010'>Hε</th>
+ <th class='btm bbt blt c010'>K</th>
+ <th class='btm bbt blt c010'>4227</th>
+ <th class='btm bbt blt brm c010'>4215</th>
+  </tr>
+  <tr>
+ <td class='blm c019'>ε Ori</td>
+ <td class='blt c011'>B0</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>.23</td>
+ <td class='blt c011'>.40</td>
+ <td class='blt c011'>.37</td>
+ <td class='blt c011'>.32</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>ß Ori</td>
+ <td class='blt c011'>cB8</td>
+ <td class='blt c011'>5:</td>
+ <td class='blt c011'>.22</td>
+ <td class='blt c011'>.45</td>
+ <td class='blt c011'>.43</td>
+ <td class='blt c011'>.46</td>
+ <td class='blt c011'>.17</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Lyr</td>
+ <td class='blt c011'>A0</td>
+ <td class='blt c011'>0.6</td>
+ <td class='blt c011'>.95</td>
+ <td class='blt c011'>1.43</td>
+ <td class='blt c011'>1.60</td>
+ <td class='blt c011'>1.68</td>
+ <td class='blt c011'>.23</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α CMa</td>
+ <td class='blt c011'>A0</td>
+ <td class='blt c011'>1.2</td>
+ <td class='blt c011'>.96</td>
+ <td class='blt c011'>1.39</td>
+ <td class='blt c011'>1.46</td>
+ <td class='blt c011'>1.47</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Cyg</td>
+ <td class='blt c011'>cA2</td>
+ <td class='blt c011'>4:</td>
+ <td class='blt c011'>.33</td>
+ <td class='blt c011'>.63</td>
+ <td class='blt c011'>.63</td>
+ <td class='blt c011'>.70</td>
+ <td class='blt c011'>.54</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Aql</td>
+ <td class='blt c011'>A5</td>
+ <td class='blt c011'>2.4</td>
+ <td class='blt c011'>.71</td>
+ <td class='blt c011'>.81</td>
+ <td class='blt c011'>.71</td>
+ <td class='blt c011'>1.50</td>
+ <td class='blt c011'>.79</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>δ Cas</td>
+ <td class='blt c011'>A5</td>
+ <td class='blt c011'>1.6</td>
+ <td class='blt c011'>1.49</td>
+ <td class='blt c011'>1.46</td>
+ <td class='blt c011'>1.54</td>
+ <td class='blt c011'>2.15</td>
+ <td class='blt c011'>1.48</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>δ CMa</td>
+ <td class='blt c011'>cF8</td>
+ <td class='blt c011'>3:</td>
+ <td class='blt c011'>.61</td>
+ <td class='blt c011'>1.12</td>
+ <td class='blt c011'>.86</td>
+ <td class='blt c011'>>2.25</td>
+ <td class='blt c011'>>2.25</td>
+ <td class='blt c011'>.70</td>
+ <td class='blt brm c011'>.51</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Aur</td>
+ <td class='blt c011'>G0</td>
+ <td class='blt c011'>0.0</td>
+ <td class='blt c011'>.43</td>
+ <td class='blt c011'>.76</td>
+ <td class='blt c011'>.57</td>
+ <td class='blt c011'>1.62</td>
+ <td class='blt c011'>1.67</td>
+ <td class='blt c011'>.57</td>
+ <td class='blt brm c011'>.36</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Boo</td>
+ <td class='blt c011'>K0</td>
+ <td class='blt c011'>0.3</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>.54</td>
+ <td class='blt c011'>.74</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>1.34</td>
+ <td class='blt brm c011'>.70</td>
+  </tr>
+  <tr>
+ <td class='bbm blm c019'>α Cas</td>
+ <td class='bbm blt c011'>K0</td>
+ <td class='bbm blt c011'>0.0</td>
+ <td class='bbm blt c011'>.25</td>
+ <td class='bbm blt c011'>.42</td>
+ <td class='bbm blt c011'>.56</td>
+ <td class='bbm blt c011'>2.50</td>
+ <td class='bbm blt c011'>2.47</td>
+ <td class='bbm blt c011'>.83</td>
+ <td class='bbm blt brm c011'>.71</td>
+  </tr>
+</table>
+
+<p class='c008'>10. The material contained in Table X is reproduced in Table XI,
+where the intensity at the line center is expressed in terms of percentage
+of the background intensity, instead of in stellar magnitudes.
+The “background intensity,” as defined in Section 6, is the intensity
+that the background would have if the line were not present. It is
+noteworthy that, for the great majority of the lines, the residual intensity
+at the line center is greater than 30 per cent of the background
+intensity.</p>
+
+<p class='c008'>11. The material presented above constitutes the first systematic
+study of the contours of strong absorption lines. In view of the preliminary
+nature of the work the discussion has been devoted for the
+most part to presentation of method. Extended discussion seems at
+present to be premature, and only a few points need be mentioned.</p>
+
+<p class='c008'>Probably the chief interest of Table X lies in the result that the
+maximum intensity drop from background to line recorded for any
+of these stars is 2.50 magnitudes, corresponding to a light loss of
+<span class='pageno' id='Page_484'>484</span>ninety per cent. Except for the supergiant cF8 star and the Ca+
+absorption for α Cassiopeiae and Hε for δ Cassiopeiae, the light remaining
+at the center of the line is at least fifteen per cent of the background
+intensity. On the average for all these strong absorption
+lines there is something like twenty-five per cent of the background
+light remaining at the center of the lines. The significance of these
+residual intensities will be discussed in a later publication, when the
+forms of the lines as shown by the data of Table IX will also be considered.</p>
+
+<table class='table0'>
+<colgroup>
+<col class='colwidth11'>
+<col class='colwidth11'>
+<col class='colwidth11'>
+<col class='colwidth11'>
+<col class='colwidth11'>
+<col class='colwidth11'>
+<col class='colwidth11'>
+<col class='colwidth9'>
+<col class='colwidth9'>
+</colgroup>
+  <tr><th class='c009' colspan='9'>TABLE XI</th></tr>
+  <tr><th class='c009' colspan='9'><span class='sc'>Residual Intensities at Line Centers, expressed as percentages of Background Intensity</span></th></tr>
+  <tr>
+ <th class='btm bbt blm c010'>Star</th>
+ <th class='btm bbt blt c010'>Class</th>
+ <th class='btm bbt blt c010'>Hβ</th>
+ <th class='btm bbt blt c010'>Hγ</th>
+ <th class='btm bbt blt c010'>Hδ</th>
+ <th class='btm bbt blt c010'>Hε</th>
+ <th class='btm bbt blt c010'>K</th>
+ <th class='btm bbt blt c010'>4227</th>
+ <th class='btm bbt blt brm c010'>4215</th>
+  </tr>
+  <tr>
+ <td class='blm c019'>ε Ori</td>
+ <td class='blt c011'>B0</td>
+ <td class='blt c011'>81</td>
+ <td class='blt c011'>69</td>
+ <td class='blt c011'>71</td>
+ <td class='blt c011'>74</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>β Ori</td>
+ <td class='blt c011'>cB8</td>
+ <td class='blt c011'>82</td>
+ <td class='blt c011'>66</td>
+ <td class='blt c011'>67</td>
+ <td class='blt c011'>65</td>
+ <td class='blt c011'>86</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Lyr</td>
+ <td class='blt c011'>A0</td>
+ <td class='blt c011'>42</td>
+ <td class='blt c011'>27</td>
+ <td class='blt c011'>23</td>
+ <td class='blt c011'>21</td>
+ <td class='blt c011'>81</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α CMa</td>
+ <td class='blt c011'>A0</td>
+ <td class='blt c011'>41</td>
+ <td class='blt c011'>28</td>
+ <td class='blt c011'>26</td>
+ <td class='blt c011'>26</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Cyg</td>
+ <td class='blt c011'>cA2</td>
+ <td class='blt c011'>74</td>
+ <td class='blt c011'>56</td>
+ <td class='blt c011'>56</td>
+ <td class='blt c011'>52</td>
+ <td class='blt c011'>61</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Aql</td>
+ <td class='blt c011'>A5</td>
+ <td class='blt c011'>51</td>
+ <td class='blt c011'>47</td>
+ <td class='blt c011'>51</td>
+ <td class='blt c011'>25</td>
+ <td class='blt c011'>48</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>δ Cas</td>
+ <td class='blt c011'>A5</td>
+ <td class='blt c011'>25</td>
+ <td class='blt c011'>26</td>
+ <td class='blt c011'>24</td>
+ <td class='blt c011'>14</td>
+ <td class='blt c011'>26</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt brm c011'>&#160;</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>δ CMa</td>
+ <td class='blt c011'>cF8</td>
+ <td class='blt c011'>57</td>
+ <td class='blt c011'>36</td>
+ <td class='blt c011'>45</td>
+ <td class='blt c011'>&lt;13</td>
+ <td class='blt c011'>&lt;13</td>
+ <td class='blt c011'>52</td>
+ <td class='blt brm c011'>63</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Aur</td>
+ <td class='blt c011'>G0</td>
+ <td class='blt c011'>67</td>
+ <td class='blt c011'>50</td>
+ <td class='blt c011'>59</td>
+ <td class='blt c011'>22</td>
+ <td class='blt c011'>21</td>
+ <td class='blt c011'>59</td>
+ <td class='blt brm c011'>72</td>
+  </tr>
+  <tr>
+ <td class='blm c019'>α Boo</td>
+ <td class='blt c011'>K0</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>61</td>
+ <td class='blt c011'>51</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>&#160;</td>
+ <td class='blt c011'>29</td>
+ <td class='blt brm c011'>52</td>
+  </tr>
+  <tr>
+ <td class='bbm blm c019'>α Cas</td>
+ <td class='bbm blt c011'>K0</td>
+ <td class='bbm blt c011'>79</td>
+ <td class='bbm blt c011'>68</td>
+ <td class='bbm blt c011'>60</td>
+ <td class='bbm blt c011'>10</td>
+ <td class='bbm blt c011'>10</td>
+ <td class='bbm blt c011'>47</td>
+ <td class='bbm blt brm c011'>52</td>
+  </tr>
+</table>
+
+<p class='c008'>For the wider lines, especially those that are strong and heavily
+winged, the intensities derived in this paper are probably of the right
+order. Probably, however, the dispersion used is too small to reproduce
+satisfactorily the detail at the centers of lines as narrow as
+those of such stars as α Cygni and β Orionis. The difficulty introduced
+does not involve inaccuracy of plates, microphotometer, or
+process of measurement; it is concerned solely with the fact that the
+spectral region examined is so narrow that, with the dispersion used,
+the grain of the plate is not fine enough to reproduce the spectral
+detail. The same difficulty would prevent any recognition of the
+double reversal of the solar H and K lines, if they were studied with
+the present dispersion.</p>
+
+<p class='c008'>Whatever the dispersion used, the same qualification must be made
+in discussing the results; probably the dispersion would have to be
+<span class='pageno' id='Page_485'>485</span>greatly increased before the measured effective line depth becomes
+much greater for narrow line stars.</p>
+
+<p class='c008'>Relative effective line depth, derived from numerous spectra made
+with the same dispersion, is still, however, of considerable significance.
+It permits us to recognize differences of surface gravity, and to form
+an idea of relative chromospheric depths for different classes of stars.</p>
+
+<h3 class='c020'><span class='sc'>Summary</span></h3>
+
+<p class='c021'>1. The investigation deals with the determination of the depth and
+contour of prominent absorption lines in the spectra of stars of various
+classes.</p>
+
+<p class='c008'>2. The spectra used were made with the 16-inch refractor of the
+Harvard Observatory, using two prisms and a special set of apertures.</p>
+
+<p class='c008'>3. Results are presented for eleven stars, of spectral class ranging
+from B0 to K0.</p>
+
+<p class='c008'>4. The spectra were analyzed under uniform conditions by means
+of the Moll thermoelectric microphotometer. The resolving power
+of this instrument is such that no integrating effect need be considered
+in discussing the results.</p>
+
+<p class='c008'>5. The microphotometer tracings were measured with reference
+to fiducial lines representing “darkness” and “clear film,” and to a
+line, representing the continuous background, drawn across the absorption
+lines.</p>
+
+<p class='c008'>6. The intensity drop from continuous background to line was
+deduced graphically from the measures.</p>
+
+<p class='c008'>7. The accuracy of the results is discussed in detail.</p>
+
+<p class='c008'>a. The reliability of the plates, as judged from qualitative
+reproduction of detail, and from the consistency of the numerical
+results, is satisfactory. Effects of stray light are of negligible
+magnitude, and in this respect slit spectra appear to have no
+advantage over objective prism spectra.</p>
+
+<p class='c008'>b. Effects of poor focus are measurable, but small. Spectra
+that are in such poor focus as to cause appreciable inaccuracy
+would be rejected from visual inspection.</p>
+
+<p class='c008'>c. The accuracy of the microphotometer tracings is in general
+satisfactory. Tracings showing abnormal deflections from “darkness”
+to “clear film” are not susceptible of correction, and are
+omitted in deriving results.</p>
+
+<p class='c008'>d. The measures upon the tracings are also of satisfactory
+accuracy.</p>
+
+<p class='c008'><span class='pageno' id='Page_486'>486</span>8. The differences in intensity between the continuous background
+and various points along the line contour are tabulated for the eleven
+stars under discussion.</p>
+
+<p class='c008'>9. The general results for the intensities at the centers of lines show
+an interesting relation to absolute brightness; the brighter stars have,
+in general, lines that cut more deeply into the background. A result
+of considerable interest is that the average residual intensity in the
+strong wide absorption lines is more than 30 per cent of the background
+intensity.</p>
+
+<div class='chapter ph2'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div>VOLUME 60.</div>
+  </div>
+</div>
+
+</div>
+
+ <dl class='dl_1 c004'>
+    <dt>1.</dt>
+    <dd><span class='sc'>Daly, Reginald A.</span>—The Geology of Ascension Island. pp. 1–80. 21 
+    pls. June, 1925. $3.00.
+    </dd>
+    <dt>2.</dt>
+    <dd><span class='sc'>Barnett, S. J., and Barnett, L. J. H.</span>—New Researches on the 
+    Magnetization of Ferromagnetic Substances by Rotation and the Nature of the Elementary 
+    Magnet. pp. 125–216. July, 1925. $1.50.
+    </dd>
+    <dt>3.</dt>
+    <dd><span class='sc'>Baxter, G. P., and Cooper, W. C., Jr.</span>—A Revision of the Atomic 
+    Weight of Germanium. II The Analysis of Germanium Tetrabromide. pp. 219–237. October, 
+    1925. $0.75.
+    </dd>
+    <dt>4.</dt>
+    <dd><span class='sc'>Dana, L. I.</span>—The Latent Heat of Vaporization of Liquid 
+    Oxygen-Nitrogen Mixtures. pp. 241–267. October, 1925. $0.75.
+    </dd>
+    <dt>5.</dt>
+    <dd><span class='sc'>Pierce, George W.</span>—Piezoelectric Crystal Oscillators Applied to 
+    the Precision Measurement of the Velocity of Sound in Air and CO<sub>2</sub> at High Frequencies. 
+    pp. 271–302. October, 1925. $0.75.
+    </dd>
+    <dt>6.</dt>
+    <dd><span class='sc'>Bridgman, P. W.</span>—Certain Physical Properties of Single Crystals of 
+    Tungsten, Antimony, Bismuth, Tellurium, Cadmium, Zinc, and Tin. pp. 305–383. October, 
+    1925. $2.50, with 7 and 8.
+    </dd>
+    <dt>7.</dt>
+    <dd><span class='sc'>Bridgman, P. W.</span>—Various Physical Properties of Rubidium and 
+    Caesium and the Resistance of Potassium Under Pressure. pp. 385–421. October, 1925. 
+    $2.50, with 6 and 8.
+    </dd>
+    <dt>8.</dt>
+    <dd><span class='sc'>Bridgman, P. W.</span>—The Effect of Tension on the Transverse and 
+    Longitudinal Resistance of Metals. pp. 423–449. October, 1925. $2.50, with 6 and 7.
+    </dd>
+    <dt>9.</dt>
+    <dd><span class='sc'>Boschma, H.</span>—On the Symbiosis or Certain Bermuda Coelenterates and 
+    Zooxanthellae. pp. 451–460. October. 1925. $0.50.
+    </dd>
+    <dt>10.</dt>
+    <dd><span class='sc'>Kennelly, A. E., and Slepian, Arthur.</span>—Computation of the Behavior 
+    of Electric Filters Under Load. pp. 461–483. October, 1925. $0.75.
+    </dd>
+    <dt>11.</dt>
+    <dd><span class='sc'>Franklin, Wm. S.</span>—Indeterminism in the Physical World. pp. 
+    485–502. November, 1925. $0.50.
+    </dd>
+    <dt>12.</dt>
+    <dd><span class='sc'>Yeh, Chi-Sun.</span>—The Effect of Hydrostatic Pressure on the Magnetic 
+    Permeability of Iron, Cobalt, and Nickel. pp. 503–535. December, 1925. $0.50.
+    </dd>
+    <dt>13.</dt>
+    <dd><span class='sc'>Roebuck, J. R.</span>—The Joule-Thomson Effect in Air. pp. 537–596. 
+    December 1925. $0.75.
+    </dd>
+    <dt>14.</dt>
+    <dd><span class='sc'>Records of Meetings</span>; Biographical Notices; Officers and 
+    Committees; List of Fellows and Foreign Honorary Members; Statutes and Standing Votes. 
+    etc. pp. 597–710. December, 1925. $0.50.
+    </dd>
+    </dl>
+
+<div class='chapter ph2'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div>VOLUME 61.</div>
+  </div>
+</div>
+
+</div>
+
+ <dl class='dl_1 c004'>
+    <dt>1.</dt>
+    <dd><span class='sc'>Lewis, Frederic T.</span>—A Further Study of the Polyhedral Shapes of 
+    Cells. pp. 1–35. December, 1925. $0.50.
+    </dd>
+    <dt>2.</dt>
+    <dd><span class='sc'>Heidel, W. A.</span>—The Calendar of Ancient Israel. pp. 37–56. 
+    December, 1925. $0.50.
+    </dd>
+    <dt>3.</dt>
+    <dd><span class='sc'>Bridgman, P. W.</span>—The Effect of Pressure on the Viscosity of 
+    Forty-three Pure Liquids. February, 1926. pp. 57–99. $0.75.
+    </dd>
+    <dt>4.</dt>
+    <dd><span class='sc'>Bridgman, P. W.</span>—Thermal Conductivity and Thermal E.M.F. of Single 
+    Crystals of Several Non-cubic Metals. pp. 101–134. February, 1926. $0.75.
+    </dd>
+    <dt>5.</dt>
+    <dd><span class='sc'>Slater, J. C.</span>—Measurements of the Compressibility of the Alkali 
+    Halides. pp. 135–150. April, 1926. $0.50.
+    </dd>
+    <dt>6.</dt>
+    <dd><span class='sc'>Palache, Charles.</span>—Contributions to Mineralogy from the Department 
+    of Mineralogy and Petrography, Harvard University. 12. Catalogue of the Collection of 
+    Meteorites in the Mineralogical Museum of Harvard University. pp. 151–159. May, 1926. 
+    $0.25.
+    </dd>
+    <dt>7.</dt>
+    <dd><span class='sc'>Rogers, Austin F.</span>—A Mathematical Study of Crystal Symmetry. pp. 
+    161–203. June, 1926. $0.75.
+    </dd>
+    <dt>8.</dt>
+    <dd><span class='sc'>Brues, Charles T.</span>—Studies on Ethiopian Braconidæ, with a 
+    Catalogue of the African Species. pp. 205–436. June, 1926. $2.50.
+    </dd>
+    <dt>9.</dt>
+    <dd><span class='sc'>Davis, Tenney L., and Abrams, Armand J. J.</span>—Studies in the Urea 
+    Series. pp. 437–457. June, 1926. $0.50.
+    </dd>
+    <dt>10.</dt>
+    <dd><span class='sc'>Payne, Cecilia H., and Shapley, Harlow.</span>—On the Distribution of 
+    Intensity in Stellar Absorption Lines, pp. 459–486. June, 1926. $0.50.
+    </dd>
+    </dl>
+
+<div class='chapter ph2'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div>PUBLICATIONS</div>
+    <div class='c002'><span class='small'>OF THE</span></div>
+    <div class='c002'><span class='large'>AMERICAN ACADEMY OF ARTS AND SCIENCES.</span></div>
+  </div>
+</div>
+
+</div>
+
+<p class='c022'>MEMOIRS. <span class='sc'>Old Series</span>, Vols. 1–4; <span class='sc'>New Series</span>, Vols. 1–14.
+16 volumes, $10 each. Half volumes, $5 each. Discount to
+booksellers and Libraries 25%; to Fellows 50%, or for whole
+sets 60%.</p>
+
+  <dl class='dl_2'>
+    <dt><strong>Vol. 13.</strong> 1.</dt>
+    <dd>Curtiss, D. R.—Binary Families in a Triply connected Region with Especial Reference to 
+    Hypergeometric Families. pp. 1–60. January, 1904. $1.00.
+    </dd>
+    <dt>2.</dt>
+    <dd>Tonks, O. S.—Brygos: his Characteristics, pp. 61–119. 2 pls. November, 1904. $1.50.
+    </dd>
+    <dt>3.</dt>
+    <dd>Lyman. T.—The Spectrum of Hydrogen in the Region of Extremely Short Wave-Length, pp. 
+    121–148. pls. iii-viii. February, 1906. 75c.
+    </dd>
+    <dt>4.</dt>
+    <dd>Pickering, W. H.—Lunar and Hawaiian Physical Features Compared, pp. 149–179. pls. 
+    ix-xxiv. November, 1906. $1.10.
+    </dd>
+    <dt>5.</dt>
+    <dd>Trowbridge, J.—High Electro-motive Force, pp. 181–215 pls. xxv-xxvii. May, 1907. 75c.
+    </dd>
+    <dt>6.</dt>
+    <dd>Thaxter. R.—Contribution toward a Monograph of the Laboulbeniaceæ. Part II. pp. 217–469. 
+    pls. xxviii-lxxi. June, 1908. $7.00.
+    </dd>
+    <dt><strong>Vol. 14.</strong> 1.</dt>
+    <dd>Lowell, Percival.—The Origin of the Planets, pp. 1–16. pls. i-iv. June, 1913. 60c.
+    </dd>
+    <dt>2.</dt>
+    <dd>Fernald, W. E., Southard, E. E., and Taft, A. E.—Waverley Researches In the Pathology of 
+    the Feeble-Minded. (Research Series, Cases I to X.) pp 17–128. 20 pls. May, 1918. $6.00.
+    </dd>
+    <dt>3.</dt>
+    <dd>Fernald, W. E., Southard, E. E., Canavan, M. M., Raeder, O. J., and Taft, A. E.—Waverley 
+    Researches In the Pathology of the Feeble-Minded. (Research Series, Cases XI to XX.) pp. 
+    129–207. 32 pls. December, 1921. $6.50
+    </dd>
+    <dt>4.</dt>
+    <dd>Pickering, Edward C., Parkhurst, J. A., Aitken, Robert G., Curtis, Heber D., Mitchell, S. 
+    A., Alden, Harold L., Simpson, T. McN., and Reed, F. W.—Photometric Magnitudes of Faint 
+    Standard Stars, measured visually at Harvard, Yerkes, Lick and McCormick Observatories, 
+    pp. 209–307. 9 pls. August, 1923. $6.00.
+    </dd>
+    <dt>5.</dt>
+    <dd>Thaxter, R.—Contribution towards a Monograph of the Laboulbeniaceæ. Part III. pp. 
+    309–426. 12 pls. $6.00.
+    </dd>
+    <dt><strong>Vol. 15.</strong> 1.</dt>
+    <dd>Jeffrey, E. C.—The Origin and Organization of Coal. pp. 1–52. 13 pls. November 1924. 
+    $3.00.
+    </dd>
+    <dt>2.</dt>
+    <dd>Mills, Hiram F.—Flow of Water In Pipes. (With a historical and personal note by John R. 
+    Freeman and introductory outline by Karl R. Kennison). pp. 55–236. Portrait. 6 Figs. 
+    November, 1924. $7.50
+    </dd>
+    <dt>3.</dt>
+    <dd>Fernald, M. L.—Persistence of Plants in Unglaciated Areas of Boreal America. pp. 237–342. 
+    73 maps. June 1925. $5.00.
+    </dd>
+    </dl>
+
+<p class='c023'>PROCEEDINGS. Vols. 1–60, $5 each. Discount to booksellers
+and Libraries 25%; to Fellows 50%, or for whole sets 60%.</p>
+
+<p class='c008'>The individual articles may be obtained separately. A price list of recent
+articles is printed on the inside pages of the cover of the Proceedings.</p>
+
+<hr class='c024'>
+
+<p class='c023'>Complete Works of Count Rumford. 4 vols., $5.00 each.</p>
+
+<p class='c023'>Memoir of Sir Benjamin Thompson, Count Rumford, with Notices of
+his Daughter. By George E. Ellis. $5.00.</p>
+
+<p class='c023'>Complete sets of the Life and Works of Rumford. 5 vols., $25.00;
+to Fellows, $5.00.</p>
+
+<div class='nf-center-c0'>
+<div class='nf-center c004'>
+    <div>For sale at the Library of <span class='sc'>The American Academy of Arts and Sciences</span>, 28 Newbury Street, Boston, Massachusetts.</div>
+  </div>
+</div>
+
+<div class='pbb'>
+ <hr class='pb c002'>
+</div>
+<div class='tnotes x-ebookmaker'>
+
+<div class='chapter ph2'>
+
+<div class='nf-center-c0'>
+<div class='nf-center c001'>
+    <div>TRANSCRIBER’S NOTES</div>
+  </div>
+</div>
+
+</div>
+
+ <ul class='ul_1 c004'>
+    <li>Typos fixed; non-standard spelling and dialect retained.
+
+    </li>
+    <li>Used numbers for footnotes
+    </li>
+  </ul>
+
+</div>
+
+<div style='text-align:center'>*** END OF THE PROJECT GUTENBERG EBOOK 75914 ***</div>
+  </body>
+  <!-- created with ppgen.py 3.57e (with regex) on 2025-04-19 23:41:44 GMT -->
+</html>
+
